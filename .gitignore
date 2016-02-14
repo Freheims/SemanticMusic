@@ -16,4 +16,4 @@ hs_err_pid*
 *.idea/
 
 # Database credz
-./resources/database/DbCredentials.java
+./resources/Semantics/src/database/DbCredentials.java
