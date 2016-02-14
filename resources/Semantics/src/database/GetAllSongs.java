@@ -19,6 +19,10 @@ public class GetAllSongs {
     private ResultSet resultSet = null;
 
 
+    /**
+     * Gets all un-annotated songs from the database
+     * @return An array of songs.
+     */
     public Song[] getAll() {
         Song[] songs = new Song[0];
         try {
@@ -36,6 +40,12 @@ public class GetAllSongs {
         return  songs;
     }
 
+    /**
+     * Creates a single Song() object from a query-result
+     * @param resultSet The result from the SQL-query
+     * @return A Song() object
+     * @throws Exception
+     */
     private Song createSong(ResultSet resultSet) throws Exception{
         String id = resultSet.getString("id");
         String name = resultSet.getString("name");
