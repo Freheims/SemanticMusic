@@ -4,15 +4,16 @@
 
 ###TODO
 
--[x] What datasets should we use? MusixMatch? 
--[] What info do we want from spotify?
-    -[] implement changes to python script and database
--[] Get lyrics into Java.
--[] Communicate with IBM AlchemyLanguage
--[] Save everything in tripleStore
--[] Create Webpage
--[] Search in triples from webpage (JS/Angular)
--[] Logging
+<<<<<<< HEAD
+- [x] What datasets should we use? MusixMatch? 
+- [] What info do we want from spotify?
+    - [] implement changes to python script and database
+- [] Get lyrics into Java.
+- [] Communicate with IBM AlchemyLanguage
+- [] Save everything in tripleStore
+- [] Create Webpage
+- [] Search in triples from webpage (JS/Angular)
+- [] Logging
 
 ###Div links
 [MusixMatch Java-wrapper](https://github.com/sachin-handiekar/jMusixMatch)
