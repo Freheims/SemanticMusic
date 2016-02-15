@@ -1,5 +1,8 @@
 package model;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 /**
  * Created by fredrik on 2/14/16.
  */
@@ -8,14 +11,14 @@ public class Song {
     private final String NAME;
     private final String ARTIST_NAME;
     private final String ALBUM_NAME;
-    private final String[] GENRE;
+    private final ArrayList<String> GENRE;
     //private final int DURATION; TODO Do we want this?
 
     private static String lyrics;
     private static String[] concepts;
     private static String[] emotions;
 
-    public Song(String ID, String NAME, String ARTIST_NAME, String ALBUM_NAME, String[] GENRE) {
+    public Song(String ID, String NAME, String ARTIST_NAME, String ALBUM_NAME, ArrayList<String> GENRE) {
         this.SpotifyID = ID;
         this.NAME = NAME;
         this.ARTIST_NAME = ARTIST_NAME;
@@ -40,7 +43,7 @@ public class Song {
         return ALBUM_NAME;
     }
 
-    public String[] getGENRE() {
+    public ArrayList<String> getGENRE() {
         return GENRE;
     }
 
@@ -73,7 +76,14 @@ public class Song {
         Song.emotions = emotions;
     }
 
-
-
-
+    @Override
+    public String toString() {
+        return "Song{" +
+                "SpotifyID='" + SpotifyID + '\'' +
+                ", NAME='" + NAME + '\'' +
+                ", ARTIST_NAME='" + ARTIST_NAME + '\'' +
+                ", ALBUM_NAME='" + ALBUM_NAME + '\'' +
+                ", GENRE=" + GENRE +
+                '}';
+    }
 }
