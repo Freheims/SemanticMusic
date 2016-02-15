@@ -3,57 +3,70 @@ package database;
 import model.Song;
 
 import java.sql.*;
+import java.util.ArrayList;
 
 /**
  * Created by fredrik on 2/14/16.
  */
 public class GetAllSongs {
 
-    private String host = DbCredentials.getHOST();
-    private String user = DbCredentials.getUSER();
-    private String psw = DbCredentials.getPASSWORD();
-    private String db = DbCredentials.getDATABASE();
-    private Connection conn = null;
-    private Statement statement = null;
-    private PreparedStatement preparedStatement = null;
-    private ResultSet resultSet = null;
+    private static String host = DbCredentials.getHOST();
+    private static String user = DbCredentials.getUSER();
+    private static String psw = DbCredentials.getPASSWORD();
+    private static String db = DbCredentials.getDATABASE();
+    private static Connection conn = null;
+    private static Statement songStatement = null;
+    private static Statement albumStatement = null;
+    private static Statement artistStatement = null;
+    private static Statement genreStatement = null;
+    private static PreparedStatement preparedStatement = null;
+    private static ResultSet songResultSet = null;
+    private static ResultSet artistResultSet = null;
+    private static ResultSet albumResultSet = null;
+    private static ResultSet genreResultSet = null;
 
 
     /**
      * Gets all un-annotated songs from the database
      * @return An array of songs.
      */
-    public Song[] getAll() {
-        Song[] songs = new Song[0];
+    public static ArrayList<Song> getAll() {
+        ArrayList<Song> songs = new ArrayList<>();
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            conn = DriverManager.getConnection("jdb:mysql://" + host + "/" + db + "?" + "user=" + user + "&password=" + psw );
+            conn = DriverManager.getConnection("jdbc:mysql://" + host + "/" + db + "?" + "user=" + user + "&password=" + psw );
 
-            statement = conn.createStatement();
-            resultSet = statement.executeQuery("SELECT * FROM spotify.artist WHERE annotated == FALSE");
+            songStatement = conn.createStatement();
+            songResultSet = songStatement.executeQuery("SELECT * FROM spotify.track LIMIT 0, 10");
 
+            songs = createSongs(songResultSet);
         } catch (Exception e) {
             e.printStackTrace();
+        } finally {
+            close();
         }
-
 
         return  songs;
     }
 
     /**
-     * Creates a single Song() object from a query-result
+     * Creates an array of Song() objects from a query-result
      * @param resultSet The result from the SQL-query
-     * @return A Song() object
+     * @return An array of Song() objects
      * @throws Exception
      */
-    private Song createSong(ResultSet resultSet) throws Exception{
-        String id = resultSet.getString("id");
-        String name = resultSet.getString("name");
-        String artistName = getArtist(id);
-        String albumName = getAlbum(id);
-        String[] genre = getGenre(id);
-        Song song = new Song(id, name, artistName, albumName, genre);
-        return song;
+    private static ArrayList<Song> createSongs(ResultSet resultSet) throws Exception{
+        ArrayList<Song> songs = new ArrayList<>();
+
+        while(resultSet.next()) {
+            String id = resultSet.getString("id");
+            String name = resultSet.getString("name");
+            String artistName = getArtist(id);
+            String albumName = getAlbum(id);
+            ArrayList<String> genre = getGenre(id);
+            songs.add(new Song(id, name, artistName, albumName, genre));
+        }
+        return songs;
     }
 
     /**
@@ -61,8 +74,11 @@ public class GetAllSongs {
      * @param songID The spotify-id for the song
      * @return The name of the album
      */
-    private String getAlbum(String songID){
-        return null; //TODO implement
+    private static String getAlbum(String songID) throws SQLException {
+        albumStatement = conn.createStatement();
+        albumResultSet = albumStatement.executeQuery("SELECT * FROM album, trackAlbum WHERE trackAlbum.track_id = '" + songID + "' AND trackAlbum.album_id = album.id;");
+        albumResultSet.next();
+        return albumResultSet.getString("name");
     }
 
     /**
@@ -70,8 +86,11 @@ public class GetAllSongs {
      * @param songID The spotify-id for the song
      * @return The name of the artist
      */
-    private String getArtist(String songID){
-        return null; //TODO implement
+    private static String getArtist(String songID) throws SQLException {
+        artistStatement = conn.createStatement();
+        artistResultSet = artistStatement.executeQuery("SELECT * FROM artist, trackArtist WHERE trackArtist.track_id = '" + songID + "' AND trackArtist.artist_id = artist.id;");
+        artistResultSet.next();
+        return artistResultSet.getString("name");
     }
 
     /**
@@ -79,8 +98,52 @@ public class GetAllSongs {
      * @param songID The spotify-id for the song
      * @return An array of genres
      */
-    private String[] getGenre(String songID){
-        return null; //TODO implement
+    private static ArrayList<String> getGenre(String songID) throws SQLException {
+        ArrayList<String> genres = new ArrayList<>();
+        genreStatement = conn.createStatement();
+        genreResultSet = genreStatement.executeQuery("SELECT * FROM genre, trackGenre WHERE trackGenre.track_id = '" + songID + "' AND trackGenre.genre = genre.name;");
+        while (genreResultSet.next()){
+            genres.add(genreResultSet.getString("name"));
+        }
+        return genres;
+    }
+
+    private static void close() {
+        try {
+            if (songResultSet != null) {
+                songResultSet.close();
+            }
+            if (artistResultSet != null) {
+                artistResultSet.close();
+            }
+            if (albumResultSet != null) {
+                albumResultSet.close();
+            }
+            if (genreResultSet != null) {
+                genreResultSet.close();
+            }
+
+            if (songStatement != null) {
+                songStatement.close();
+            }
+
+            if (albumStatement != null) {
+                albumStatement.close();
+            }
+
+            if (artistStatement != null) {
+                artistStatement.close();
+            }
+            if (genreStatement != null) {
+                genreStatement.close();
+            }
+
+            if (conn != null) {
+                conn.close();
+            }
+        } catch (Exception e) {
+
+        }
     }
 
 }
