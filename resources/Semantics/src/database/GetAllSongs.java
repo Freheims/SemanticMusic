@@ -6,6 +6,9 @@ import java.sql.*;
 import java.util.ArrayList;
 
 /**
+ * Class containing methods for getting songs from the SQL-database.
+ *
+ *
  * Created by fredrik on 2/14/16.
  */
 public class GetAllSongs {
@@ -19,7 +22,6 @@ public class GetAllSongs {
     private static Statement albumStatement = null;
     private static Statement artistStatement = null;
     private static Statement genreStatement = null;
-    private static PreparedStatement preparedStatement = null;
     private static ResultSet songResultSet = null;
     private static ResultSet artistResultSet = null;
     private static ResultSet albumResultSet = null;
@@ -108,6 +110,9 @@ public class GetAllSongs {
         return genres;
     }
 
+    /**
+     * Method for closing all open connections
+     */
     private static void close() {
         try {
             if (songResultSet != null) {
@@ -142,7 +147,7 @@ public class GetAllSongs {
                 conn.close();
             }
         } catch (Exception e) {
-
+            e.printStackTrace();
         }
     }
 

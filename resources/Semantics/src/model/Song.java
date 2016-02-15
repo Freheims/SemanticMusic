@@ -1,9 +1,10 @@
 package model;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
+ * A class for representing songs
+ *
  * Created by fredrik on 2/14/16.
  */
 public class Song {
