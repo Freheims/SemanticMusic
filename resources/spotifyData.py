@@ -28,8 +28,8 @@ def getAlbumFromDB(id):
 
 def addAlbumToDB(id, name, type, image):
     with connection.cursor() as cursor:
-        sql = "INSERT INTO `album` VALUES (%s, %s, %s, %s)"
-        cursor.execute(sql, (id, name, type, image))
+        sql = "INSERT INTO `album` VALUES (%s, %s, %s)"
+        cursor.execute(sql, (id, name, type))
         connection.commit()
 
 def getTrackFromDB(id):
@@ -40,10 +40,10 @@ def getTrackFromDB(id):
         result = cursor.fetchone()
     return result
 
-def addTrackToDB(id, name):
+def addTrackToDB(id, name, duration, image):
     with connection.cursor() as cursor:
-        sql = "INSERT INTO `track` VALUES (%s, %s)"
-        cursor.execute(sql, (id, name))
+        sql = "INSERT INTO `track` VALUES (%s, %s, %s, %s)"
+        cursor.execute(sql, (id, name, duration, image))
         connection.commit()
 
 def getGenreFromDB(name):
@@ -108,7 +108,9 @@ def addTracks(tracks, artistId, albumId, genres):
     for track in tracks:
         trackId = track['id']
         trackName = track['name']
-        addTrackToDB(trackId, trackName)
+	trackDuration = track['duration_ms']
+	trackImage = track['images'][0]['url']
+        addTrackToDB(trackId, trackName, trackDuration, trackImage)
         addTrackArtistToDB(trackId, artistId)
         addTrackAlbumToDB(trackId, albumId)
 
@@ -121,12 +123,11 @@ def addAlbums(artistId, artistGenres):
         album = sp.album(albumId)
         albumName = album['name']
         albumType = album['type']
-        albumImage = album['images'][0]['url']
         albumGenres = album['genres']
         albumTracks = album['tracks']['items']
         allGenres = artistGenres + albumGenres
 
-        addAlbumToDB(albumId, albumName, albumType, albumImage)
+        addAlbumToDB(albumId, albumName, albumType)
         
         addGenres(albumGenres)
         addTracks(albumTracks, artistId, albumId, allGenres)

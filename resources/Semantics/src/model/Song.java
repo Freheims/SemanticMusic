@@ -8,7 +8,7 @@ import java.util.ArrayList;
  * Created by fredrik on 2/14/16.
  */
 public class Song {
-    private final String SpotifyID;
+    private final String SPOTIFY_ID;
     private final String NAME;
     private final String ARTIST_NAME;
     private final String ALBUM_NAME;
@@ -21,7 +21,7 @@ public class Song {
     private static String[] emotions;
 
     public Song(String ID, String NAME, String ARTIST_NAME, String ALBUM_NAME, ArrayList<String> GENRE, int DURATION, String IMAGE) {
-        this.SpotifyID = ID;
+        this.SPOTIFY_ID = ID;
         this.NAME = NAME;
         this.ARTIST_NAME = ARTIST_NAME;
         this.ALBUM_NAME = ALBUM_NAME;
@@ -30,8 +30,8 @@ public class Song {
         this.IMAGE = IMAGE;
     }
 
-    public String getSpotifyID() {
-        return SpotifyID;
+    public String getSPOTIFY_ID() {
+        return SPOTIFY_ID;
     }
 
     public String getNAME() {
@@ -85,7 +85,7 @@ public class Song {
     @Override
     public String toString() {
         return "Song{" +
-                "SpotifyID='" + SpotifyID + '\'' +
+                "SPOTIFY_ID='" + SPOTIFY_ID + '\'' +
                 ", NAME='" + NAME + '\'' +
                 ", ARTIST_NAME='" + ARTIST_NAME + '\'' +
                 ", ALBUM_NAME='" + ALBUM_NAME + '\'' +
