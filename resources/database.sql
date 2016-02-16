@@ -1,6 +1,9 @@
 CREATE TABLE IF NOT EXISTS artist (
     id char(22) NOT NULL,
     name varchar(60) NOT NULL,
+    duration integer NOT NULL,
+    image varchar(70),
+    annotated boolean DEFAULT FALSE,
     PRIMARY KEY(id)
     );
 
@@ -8,7 +11,6 @@ CREATE TABLE IF NOT EXISTS album (
     id char(22) NOT NULL,
     name varchar(120) NOT NULL,
     type varchar(20),
-    image varchar(70),
     PRIMARY KEY(id)
     );
 
