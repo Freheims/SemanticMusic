@@ -13,19 +13,21 @@ public class Song {
     private final String ARTIST_NAME;
     private final String ALBUM_NAME;
     private final ArrayList<String> GENRE;
-    //private final int DURATION; TODO Do we want this?
+    private final int DURATION;
+    private final String IMAGE;
 
     private static String lyrics;
     private static String[] concepts;
     private static String[] emotions;
 
-    public Song(String ID, String NAME, String ARTIST_NAME, String ALBUM_NAME, ArrayList<String> GENRE) {
+    public Song(String ID, String NAME, String ARTIST_NAME, String ALBUM_NAME, ArrayList<String> GENRE, int DURATION, String IMAGE) {
         this.SpotifyID = ID;
         this.NAME = NAME;
         this.ARTIST_NAME = ARTIST_NAME;
         this.ALBUM_NAME = ALBUM_NAME;
         this.GENRE = GENRE;
-        //this.DURATION = DURATION;
+        this.DURATION = DURATION;
+        this.IMAGE = IMAGE;
     }
 
     public String getSpotifyID() {
@@ -48,11 +50,14 @@ public class Song {
         return GENRE;
     }
 
-    /*
     public int getDURATION() {
         return DURATION;
     }
-*/
+
+    public String getIMAGE() {
+        return IMAGE;
+    }
+
     public static String getLyrics() {
         return lyrics;
     }
@@ -85,6 +90,8 @@ public class Song {
                 ", ARTIST_NAME='" + ARTIST_NAME + '\'' +
                 ", ALBUM_NAME='" + ALBUM_NAME + '\'' +
                 ", GENRE=" + GENRE +
+                ", DURATION=" + DURATION +
+                ", IMAGE='" + IMAGE + '\'' +
                 '}';
     }
 }

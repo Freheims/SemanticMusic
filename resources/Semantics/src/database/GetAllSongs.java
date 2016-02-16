@@ -2,6 +2,7 @@ package database;
 
 import model.Song;
 
+import java.io.StringReader;
 import java.sql.*;
 import java.util.ArrayList;
 
@@ -63,10 +64,12 @@ public class GetAllSongs {
         while(resultSet.next()) {
             String id = resultSet.getString("id");
             String name = resultSet.getString("name");
+            int duration = resultSet.getInt("duration");
+            String image = resultSet.getString("image");
             String artistName = getArtist(id);
             String albumName = getAlbum(id);
             ArrayList<String> genre = getGenre(id);
-            songs.add(new Song(id, name, artistName, albumName, genre));
+            songs.add(new Song(id, name, artistName, albumName, genre, duration, image));
         }
         return songs;
     }
