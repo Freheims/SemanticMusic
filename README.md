@@ -4,7 +4,6 @@
 
 ###TODO
 
-<<<<<<< HEAD
 - [x] What datasets should we use? MusixMatch? 
 - [] What info do we want from spotify?
     - [] implement changes to python script and database

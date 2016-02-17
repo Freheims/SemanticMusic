@@ -28,8 +28,8 @@ def getAlbumFromDB(id):
 
 def addAlbumToDB(id, name, type, image):
     with connection.cursor() as cursor:
-        sql = "INSERT INTO `album` VALUES (%s, %s, %s)"
-        cursor.execute(sql, (id, name, type))
+        sql = "INSERT INTO `album` VALUES (%s, %s, %s, %s)"
+        cursor.execute(sql, (id, name, type, image))
         connection.commit()
 
 def getTrackFromDB(id):
@@ -40,10 +40,10 @@ def getTrackFromDB(id):
         result = cursor.fetchone()
     return result
 
-def addTrackToDB(id, name, duration, image):
+def addTrackToDB(id, name, duration):
     with connection.cursor() as cursor:
         sql = "INSERT INTO `track` VALUES (%s, %s, %s, %s)"
-        cursor.execute(sql, (id, name, duration, image))
+        cursor.execute(sql, (id, name, duration, 0))
         connection.commit()
 
 def getGenreFromDB(name):
@@ -108,9 +108,8 @@ def addTracks(tracks, artistId, albumId, genres):
     for track in tracks:
         trackId = track['id']
         trackName = track['name']
-	trackDuration = track['duration_ms']
-	trackImage = track['images'][0]['url']
-        addTrackToDB(trackId, trackName, trackDuration, trackImage)
+        trackDuration = track['duration_ms']
+        addTrackToDB(trackId, trackName, trackDuration)
         addTrackArtistToDB(trackId, artistId)
         addTrackAlbumToDB(trackId, albumId)
 
@@ -124,10 +123,11 @@ def addAlbums(artistId, artistGenres):
         albumName = album['name']
         albumType = album['type']
         albumGenres = album['genres']
+        albumImage = album['images'][0]['url']
         albumTracks = album['tracks']['items']
         allGenres = artistGenres + albumGenres
 
-        addAlbumToDB(albumId, albumName, albumType)
+        addAlbumToDB(albumId, albumName, albumType, albumImage)
         
         addGenres(albumGenres)
         addTracks(albumTracks, artistId, albumId, allGenres)
@@ -181,7 +181,7 @@ def addArtists(rootArtist, numberToAdd):
 
 # Connect to the database
 connection = pymysql.connect(host='freheims.xyz',
-                             user='fredrik',
+                             user='fredrik3',
                              password='semanticMusic',
                              db='spotify',
                              charset='utf8mb4',
@@ -190,7 +190,7 @@ connection = pymysql.connect(host='freheims.xyz',
 sp = spotipy.Spotify()
 
 try:
-    addArtists('1s1DnVoBDfp3jxjjew8cBR', 4)
+    addArtists('1RyvyyTE3xzB2ZywiAwp0i', 4)
 
 finally:
     connection.close()

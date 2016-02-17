@@ -16,9 +16,9 @@ public class Song {
     private final int DURATION;
     private final String IMAGE;
 
-    private static String lyrics;
-    private static String[] concepts;
-    private static String[] emotions;
+    private String lyrics;
+    private ArrayList<String> concepts;
+    private ArrayList<String> emotions;
 
     public Song(String ID, String NAME, String ARTIST_NAME, String ALBUM_NAME, ArrayList<String> GENRE, int DURATION, String IMAGE) {
         this.SPOTIFY_ID = ID;
@@ -28,6 +28,9 @@ public class Song {
         this.GENRE = GENRE;
         this.DURATION = DURATION;
         this.IMAGE = IMAGE;
+        this.lyrics = "";
+        this.concepts = new ArrayList<>();
+        this.emotions = new ArrayList<>();
     }
 
     public String getSPOTIFY_ID() {
@@ -58,28 +61,28 @@ public class Song {
         return IMAGE;
     }
 
-    public static String getLyrics() {
+    public String getLyrics() {
         return lyrics;
     }
 
-    public static void setLyrics(String lyrics) {
-        Song.lyrics = lyrics;
+    public void setLyrics(String lyrics) {
+        this.lyrics = lyrics;
     }
 
-    public static String[] getConcepts() {
+    public ArrayList<String> getConcepts() {
         return concepts;
     }
 
-    public static void setConcepts(String[] concepts) {
-        Song.concepts = concepts;
+    public void setConcepts(ArrayList<String> concepts) {
+        this.concepts = concepts;
     }
 
-    public static String[] getEmotions() {
+    public ArrayList<String> getEmotions() {
         return emotions;
     }
 
-    public static void setEmotions(String[] emotions) {
-        Song.emotions = emotions;
+    public void setEmotions(ArrayList<String> emotions) {
+        this.emotions = emotions;
     }
 
     @Override
@@ -92,6 +95,9 @@ public class Song {
                 ", GENRE=" + GENRE +
                 ", DURATION=" + DURATION +
                 ", IMAGE='" + IMAGE + '\'' +
+                ", lyrics='" + lyrics + '\'' +
+                ", concepts=" + concepts +
+                ", emotions=" + emotions +
                 '}';
     }
 }
