@@ -14,6 +14,7 @@ import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathFactory;
 import javax.xml.xpath.XPathExpression;
+import java.io.BufferedInputStream;
 import java.util.ArrayList;
 import java.util.Objects;
 
@@ -31,28 +32,7 @@ public class GetSemantics {
         if(song.getLyrics() == "") return;
         ArrayList<String> conceptsList = new ArrayList<>();
         try {
-            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-            factory.setNamespaceAware(true);
-            DocumentBuilder builder;
-            Document doc = null;
-            XPathExpression expr = null;
-            builder = factory.newDocumentBuilder();
-            doc = builder.parse(String.valueOf(alchemyApi.textGetRankedConcepts(song.getLyrics())));
-
-            XPathFactory xFactory = XPathFactory.newInstance();
-
-            XPath xPath = xFactory.newXPath();
-
-            expr = xPath.compile("//concepts");
-            Object result = expr.evaluate(doc, XPathConstants.NODESET);
-            NodeList nodes = (NodeList) result;
-            for (int i = 0; i < nodes.getLength(); i++){
-                Node node = nodes.item(i);
-                String concept = node.getChildNodes().item(1).getNodeValue();
-                double relevance = Double.parseDouble(node.getChildNodes().item(2).getNodeValue());
-                conceptsList.add(concept);
-
-            }
+            //TODO
             song.setConcepts(conceptsList);
         }catch (Exception e){
             e.printStackTrace();
