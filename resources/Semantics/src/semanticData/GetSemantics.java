@@ -8,6 +8,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 /**
  * Class for getting sematic data from Alchemy
@@ -20,7 +21,7 @@ public class GetSemantics {
     private static AlchemyApi alchemyApi = new AlchemyApi(new AlchemyApiConfiguration(API_KEY));
 
     public static void getConcepts(Song song){
-        if(song.getLyrics() == "") return;
+        if(Objects.equals(song.getLyrics(), "")) return;
         ArrayList<String> conceptsList = new ArrayList<>();
         try {
             Document doc = alchemyApi.textGetRankedConcepts(song.getLyrics());
@@ -41,7 +42,7 @@ public class GetSemantics {
     }
 
     public static void getEmotions(Song song){
-        if(song.getLyrics() == "") return;
+        if(Objects.equals(song.getLyrics(), "")) return;
         ArrayList<String> emotionsList= new ArrayList<>();
         try {
             Document doc = alchemyApi.textGetEmotion(song.getLyrics());
