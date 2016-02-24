@@ -39,7 +39,7 @@ public class GetAllSongs {
             conn = DriverManager.getConnection("jdbc:mysql://" + host + "/" + db + "?" + "user=" + user + "&password=" + psw );
 
             songStatement = conn.createStatement();
-            songResultSet = songStatement.executeQuery("SELECT * FROM spotify.track LIMIT 0, 10");
+            songResultSet = songStatement.executeQuery("SELECT * FROM spotify.track WHERE annotated = 0 LIMIT 0, 15");
 
             songs = createSongs(songResultSet);
         } catch (Exception e) {
@@ -64,7 +64,7 @@ public class GetAllSongs {
             String id = resultSet.getString("id");
             String name = resultSet.getString("name");
             int duration = resultSet.getInt("duration");
-            String image = resultSet.getString("image");
+            String image = "hack"; //resultSet.getString("image");
             String artistName = getArtist(id);
             String albumName = getAlbum(id);
             ArrayList<String> genre = getGenre(id);
