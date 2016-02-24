@@ -8,15 +8,13 @@ import java.util.ArrayList;
 /**
  * Class containing methods for getting songs from the SQL-database.
  *
- *
- * Created by fredrik on 2/14/16.
  */
 public class GetAllSongs {
 
-    private static String host = DbCredentials.getHOST();
-    private static String user = DbCredentials.getUSER();
-    private static String psw = DbCredentials.getPASSWORD();
-    private static String db = DbCredentials.getDATABASE();
+    private static final String host = DbCredentials.getHOST();
+    private static final String user = DbCredentials.getUSER();
+    private static final String psw = DbCredentials.getPASSWORD();
+    private static final String db = DbCredentials.getDATABASE();
     private static Connection conn = null;
     private static Statement songStatement = null;
     private static Statement albumStatement = null;

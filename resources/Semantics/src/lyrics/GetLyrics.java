@@ -11,8 +11,8 @@ import org.jmusixmatch.entity.lyrics.Lyrics;
  *
  */
 public class GetLyrics {
-    private static String apiKey = ApiKey.getApiKey();
-    private static MusixMatch musixMatch = new MusixMatch(apiKey);
+    private static final String apiKey = ApiKey.getApiKey();
+    private static final MusixMatch musixMatch = new MusixMatch(apiKey);
 
     /**
      * Retrieves the lyrics for a song from MusicxMatchs
