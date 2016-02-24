@@ -15,7 +15,7 @@ import java.util.Objects;
  */
 public class GetSemantics {
 
-    private static final String API_KEY = ApacheApiKey.getApiKey();
+    private static final String API_KEY = AlchemyApiKey.getApiKey();
 
     private static final AlchemyApi alchemyApi = new AlchemyApi(new AlchemyApiConfiguration(API_KEY));
 

@@ -1,7 +1,7 @@
 package lyrics;
 
 /**
- * Created by fredrik on 2/16/16.
+ * Storing the musixMatch API-key
  */
 public class ApiKey {
     private static final String API_KEY="";

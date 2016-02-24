@@ -1,9 +1,9 @@
 package semanticData;
 
 /**
- * Created by fredrik on 2/16/16.
+ * Class for storing the API-key for IBM AlchemyLanguage
  */
-public class ApacheApiKey {
+public class AlchemyApiKey {
     private static String API_KEY = "";
 
     public static String getApiKey() {

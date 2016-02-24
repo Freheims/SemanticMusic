@@ -1,7 +1,7 @@
 package database;
 
 /**
- * Created by fredrik on 2/14/16.
+ * Class for storing database credentials
  */
 public class DbCredentials {
     private static String HOST ="";
