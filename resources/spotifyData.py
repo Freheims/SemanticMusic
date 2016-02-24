@@ -26,10 +26,10 @@ def getAlbumFromDB(id):
         result = cursor.fetchone()
     return result
 
-def addAlbumToDB(id, name, type, image):
+def addAlbumToDB(id, name, type):
     with connection.cursor() as cursor:
-        sql = "INSERT INTO `album` VALUES (%s, %s, %s, %s)"
-        cursor.execute(sql, (id, name, type, image))
+        sql = "INSERT INTO `album` VALUES (%s, %s, %s)"
+        cursor.execute(sql, (id, name, type))
         connection.commit()
 
 def getTrackFromDB(id):
@@ -40,10 +40,10 @@ def getTrackFromDB(id):
         result = cursor.fetchone()
     return result
 
-def addTrackToDB(id, name, duration):
+def addTrackToDB(id, name, duration, image):
     with connection.cursor() as cursor:
-        sql = "INSERT INTO `track` VALUES (%s, %s, %s, %s)"
-        cursor.execute(sql, (id, name, duration, 0))
+        sql = "INSERT INTO `track` VALUES (%s, %s, %s, %s, %s)"
+        cursor.execute(sql, (id, name, duration, image, 0))
         connection.commit()
 
 def getGenreFromDB(name):
@@ -104,12 +104,12 @@ def addTrackGenreToDB(trackId, genre):
 
 #OTHER STUFF
 
-def addTracks(tracks, artistId, albumId, genres):
+def addTracks(tracks, artistId, albumId, genres, image):
     for track in tracks:
         trackId = track['id']
         trackName = track['name']
         trackDuration = track['duration_ms']
-        addTrackToDB(trackId, trackName, trackDuration)
+        addTrackToDB(trackId, trackName, trackDuration, image)
         addTrackArtistToDB(trackId, artistId)
         addTrackAlbumToDB(trackId, albumId)
 
@@ -127,10 +127,10 @@ def addAlbums(artistId, artistGenres):
         albumTracks = album['tracks']['items']
         allGenres = artistGenres + albumGenres
 
-        addAlbumToDB(albumId, albumName, albumType, albumImage)
+        addAlbumToDB(albumId, albumName, albumType)
         
         addGenres(albumGenres)
-        addTracks(albumTracks, artistId, albumId, allGenres)
+        addTracks(albumTracks, artistId, albumId, allGenres, albumImage)
 
 def addRelatedArtists(id, artistStack):
     rArtist = sp.artist_related_artists(id)
@@ -181,7 +181,7 @@ def addArtists(rootArtist, numberToAdd):
 
 # Connect to the database
 connection = pymysql.connect(host='freheims.xyz',
-                             user='fredrik3',
+                             user='fredrik',
                              password='semanticMusic',
                              db='spotify',
                              charset='utf8mb4',
@@ -190,7 +190,7 @@ connection = pymysql.connect(host='freheims.xyz',
 sp = spotipy.Spotify()
 
 try:
-    addArtists('1RyvyyTE3xzB2ZywiAwp0i', 4)
+    addArtists('0DbbnkFMhhDvinDYIiHhGS', 4)
 
 finally:
     connection.close()

@@ -64,7 +64,7 @@ public class GetAllSongs {
             String id = resultSet.getString("id");
             String name = resultSet.getString("name");
             int duration = resultSet.getInt("duration");
-            String image = "hack"; //resultSet.getString("image");
+            String image = resultSet.getString("image");
             String artistName = getArtist(id);
             String albumName = getAlbum(id);
             ArrayList<String> genre = getGenre(id);
