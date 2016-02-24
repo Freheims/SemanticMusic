@@ -5,7 +5,6 @@ import java.util.ArrayList;
 /**
  * A class for representing songs
  *
- * Created by fredrik on 2/14/16.
  */
 public class Song {
     private final String SPOTIFY_ID;

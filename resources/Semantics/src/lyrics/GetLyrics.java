@@ -9,12 +9,15 @@ import org.jmusixmatch.entity.lyrics.Lyrics;
 /**
  * Class for getting lyrics
  *
- * Created by fredrik on 2/15/16.
  */
 public class GetLyrics {
     private static String apiKey = ApiKey.getApiKey();
     private static MusixMatch musixMatch = new MusixMatch(apiKey);
 
+    /**
+     * Retrieves the lyrics for a song from MusicxMatchs
+     * @param song the song to get lyrics for
+     */
     public static void getLyric(Song song){
         try {
             Track queryTrack = musixMatch.getMatchingTrack(song.getNAME(), song.getARTIST_NAME());

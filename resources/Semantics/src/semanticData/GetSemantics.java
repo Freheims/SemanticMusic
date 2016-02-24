@@ -11,8 +11,7 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 /**
- * Class for getting sematic data from Alchemy
- * Created by fredrik on 2/16/16.
+ * Class for getting semantic data from Alchemy
  */
 public class GetSemantics {
 
@@ -20,6 +19,10 @@ public class GetSemantics {
 
     private static AlchemyApi alchemyApi = new AlchemyApi(new AlchemyApiConfiguration(API_KEY));
 
+    /**
+     * Gets concepts for a song from IBM AlchemyLanguage
+     * @param song the song to get concepts for
+     */
     public static void getConcepts(Song song){
         if(Objects.equals(song.getLyrics(), "")) return;
         ArrayList<String> conceptsList = new ArrayList<>();
@@ -41,6 +44,10 @@ public class GetSemantics {
         }
     }
 
+    /**
+     * Gets emotions for a song from IBM AlchemyLanguage
+     * @param song the song to get emotions for
+     */
     public static void getEmotions(Song song){
         if(Objects.equals(song.getLyrics(), "")) return;
         ArrayList<String> emotionsList= new ArrayList<>();
