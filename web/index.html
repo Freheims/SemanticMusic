@@ -2,22 +2,30 @@
     <head>
 	<title>SemanticMusic </title>
 	<script type="text/javascript">
-	    function artistSearch(){
+	    function songSearch(){
 		var searchQuery = document.getElementById("search").value;
 		console.log(searchQuery);
 	    }
 
-
+	</script>
     </head>
     <body>
     
 	<h1> Semantic Music search</h1>
 
 	<form action="#" onsubmit="return false;">
-	    <input type="text" id="search"/>
-	    <button id="search" onclick="searchArtist()">artistSearch</button>
+	    <input type="text" id="searchSong"/>
+	    <button id="search" onclick="searchSong()">songSearch</button>
+	</form>
+	<form action="#" onsubmit="return false;">
+	    <input type="text" id="searchEmotion"/>
+	    <button id="search" onclick="searchEmotion()">emotionSearch</button>
 	</form>
 	
+	<form action="#" onsubmit="return false;">
+	    <input type="text" id="searchConcept"/>
+	    <button id="search" onclick="searchConcept()">conceptSearch</button>
+	</form>
 
     </body>
 </html>
