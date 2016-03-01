@@ -1,31 +1,35 @@
+<!DOCTYPE html>
 <html>
     <head>
-	<title>SemanticMusic </title>
-	<script type="text/javascript">
-	    function songSearch(){
-		var searchQuery = document.getElementById("search").value;
-		console.log(searchQuery);
-	    }
-
-	</script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta name="robots" content="noindex, nofollow">
+        <meta name="robots" content="noarchive">
+        
+        <script src="script/scripto.js" type="text/javascript">
+        </script>
     </head>
-    <body>
-    
-	<h1> Semantic Music search</h1>
-
-	<form action="#" onsubmit="return false;">
-	    <input type="text" id="searchSong"/>
-	    <button id="search" onclick="searchSong()">songSearch</button>
-	</form>
-	<form action="#" onsubmit="return false;">
-	    <input type="text" id="searchEmotion"/>
-	    <button id="search" onclick="searchEmotion()">emotionSearch</button>
-	</form>
-	
-	<form action="#" onsubmit="return false;">
-	    <input type="text" id="searchConcept"/>
-	    <button id="search" onclick="searchConcept()">conceptSearch</button>
-	</form>
-
+    <body id="index">
+        <section id="lazybox">
+            <header>
+                <h1>Hallern</h1>
+                <nav>
+                    <ul>
+                        <li id="current"><a href="index.html">Home</a></li>
+                        <li><a href="artists.html">Artists</a></li>
+                        <li><a href="songs.html">Songs</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <p>HEY MAN PUT YOUR SEARCH DOWN IN THIS BOX RIGHT HERE MAN</p>
+                <input type="text" id="query"/>
+                <input type="submit" value="LET'S GO" onclick="searchinput(document.getElementById('query'))"/>
+                
+                <p id="dank"></p>
+            </main>
+            <footer>
+                
+            </footer>
+        </section>
     </body>
 </html>
