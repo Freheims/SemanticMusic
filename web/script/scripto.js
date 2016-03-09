@@ -1,33 +1,78 @@
-var input = [];
+var PREFIX = "PREFIX test: <freheims.xyz/semantic-music/>" //Global variabel? Sidan det er felles for alle queries
+
 
 //tar i mot input og deler det opp, alle søkeord splittes med ','
 //burde kanskje legge til hva man IKKE vil ha? kanskje? IDK
 function searchinput(temp){
-    input = temp.split(',');
+    var tempep = temp.value;
+    var input = tempep.split(",");
+    console.log(input);
+    
     
     //fjerner whitespace fra strings
-    for(var x = 0; x < input.length(); x++){
+    //Er dette noko vi vil ha?
+    //Viss eg søker etter "Royal Republic" vill eg ha treff på bandet Royal Republic
+    //Ikkje "RoyalRepublic"
+    for(var x = 0; x < input.length; x++){
+        var oldString = input[x];
+        input[x] = oldString.replace(/\s+/g,"");
+    }
+    searchConcepts(input);
+    
+    //Er det meininga å gjere dette to gongar?
+    for(var x = 0; x < input.length; x++){
         var oldString = input[x];
         input[x] = oldString.replace(/\s+/g,"");
     }
 }
 
-function test(search) {
+//Concept? Var det det vi ville ha her
+function concept(input) {
     var query = [
-        "PREFIX", // må fikse alle prefixene ayy
+        PREFIX, // må fikse alle prefixene ayy
         "SELECT ?songs",
         "WHERE {",
-            "sparql query som fikser shittet",
+            "?songs test:concept " + input +'.',
+        "}"
+        ].join(" ");
+    
+    console.log(query);
+}
+
+//Describes? What is?
+function describes(input) {
+    var query = [
+        PREFIX, // må fikse alle prefixene ayy
+        "SELECT ?songs",
+        "WHERE {",
+            "?songs .contains" ,
         "}"
         ].join(" ");
 }
 
-function test(search, search2) {
-    var query = [
-        "PREFIX", // må fikse alle prefixene ayy
-        "SELECT ?songs",
+function semtech() {
+    
+}
+
+
+function searchConcepts(searchwords){
+    var wherestatement = [
         "WHERE {",
-            "sparql query som fikser shittet",
-        "}"
-        ].join(" ");
+        "?song test:title ?songTitle .",
+        "?song test:artist ?songArtist .",
+        "?song test:album ?songAlbum .",
+        "?song test:image ?songImage .",
+        ];
+    for (var i in searchwords){
+        wherestatement.push("?song test:concept " + searchwords[i] + ".");
+    }
+    wherestatement.push("}");
+    var where = wherestatement.join("\n");
+    
+    var query = [
+        PREFIX,
+        "SELECT ?songTitle, ?songArtist, ?songAlbum, ?songImage",
+        where
+        ].join("\n");
+    console.log(query);
 }
