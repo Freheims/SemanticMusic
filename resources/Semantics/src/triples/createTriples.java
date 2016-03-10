@@ -65,6 +65,7 @@ public class createTriples {
             for (String em : song.getEmotions()){
                 res.addProperty(emotion, em);
             }
+            GetAllSongs.setAsAnnotated(song);
         }
 
         OutputStream os = new FileOutputStream(tripleStore);

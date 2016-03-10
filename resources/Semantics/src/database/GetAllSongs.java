@@ -37,7 +37,7 @@ public class GetAllSongs {
             conn = DriverManager.getConnection("jdbc:mysql://" + host + "/" + db + "?" + "user=" + user + "&password=" + psw );
 
             songStatement = conn.createStatement();
-            songResultSet = songStatement.executeQuery("SELECT * FROM spotify.track WHERE annotated = 0 LIMIT 0, 15");
+            songResultSet = songStatement.executeQuery("SELECT * FROM spotify.track WHERE annotated = 0 LIMIT 0, 1");
 
             songs = createSongs(songResultSet);
         } catch (Exception e) {
@@ -108,6 +108,20 @@ public class GetAllSongs {
             genres.add(genreResultSet.getString("name"));
         }
         return genres;
+    }
+
+    public static void setAsAnnotated(Song song) throws SQLException {
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            conn = DriverManager.getConnection("jdbc:mysql://" + host + "/" + db + "?" + "user=" + user + "&password=" + psw);
+            Statement annotatedStatement = conn.createStatement();
+            annotatedStatement.execute("UPDATE spotify.track SET track.annotated = 1 WHERE track.id = '" + song.getSPOTIFY_ID()+ "'");
+        }catch (Exception e){
+            e.printStackTrace();
+        }finally {
+            close();
+        }
+
     }
 
     /**
