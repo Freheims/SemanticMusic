@@ -1,4 +1,4 @@
-
+import time
 import spotipy
 import pymysql.cursors
 
@@ -158,7 +158,6 @@ def addGenres(genreList):
 def addArtists(rootArtist, numberToAdd):
 
     artistStack = [rootArtist]
-    count = 0
 
     while len(artistStack)>0:
         artist = sp.artist(artistStack.pop())
@@ -172,16 +171,14 @@ def addArtists(rootArtist, numberToAdd):
         addAlbums(artistId, artistGenre)
         #print(albumStack)
         artistStack += addRelatedArtists(artistId, artistStack)
-        count += 1
-        if(count > numberToAdd):
-            break
+        time.sleep(600)
 
 
 #RUNNING CODE
 
 # Connect to the database
 connection = pymysql.connect(host='freheims.xyz',
-                             user='fredrik',
+                             user='music',
                              password='semanticMusic',
                              db='spotify',
                              charset='utf8mb4',
@@ -190,7 +187,7 @@ connection = pymysql.connect(host='freheims.xyz',
 sp = spotipy.Spotify()
 
 try:
-    addArtists('0DbbnkFMhhDvinDYIiHhGS', 4)
+    addArtists('0oSGxfWSnnOXhD2fKuz2Gy')
 
 finally:
     connection.close()
