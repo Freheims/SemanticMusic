@@ -104,6 +104,11 @@ def addTrackGenreToDB(trackId, genre):
 
 #OTHER STUFF
 
+def printArtistStack(artistStack):
+    stackFile = open("artistStack.txt", "a")
+    for artist in artistStack:
+        stackFile.write(artist)
+
 def addTracks(tracks, artistId, albumId, genres, image):
     for track in tracks:
         trackId = track['id']
@@ -170,7 +175,11 @@ def addArtists(rootArtist):
 
         addAlbums(artistId, artistGenre)
         #print(albumStack)
-        artistStack += addRelatedArtists(artistId, artistStack)
+        try:
+            artistStack += addRelatedArtists(artistId, artistStack)
+        except(MemoryError):
+            printArtistStack(artistStack)
+        
         time.sleep(600)
 
 
