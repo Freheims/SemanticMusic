@@ -5,9 +5,9 @@
         <meta name="robots" content="noindex, nofollow">
         <meta name="robots" content="noarchive">
         <meta charset="UTF-8">
+        <script src="script/searchscript.js" type="text/javascript"></script>
+        <title>Semantic shait</title>
         
-        <script src="script/scripto.js" type="text/javascript">
-        </script>
     </head>
     <body id="index">
         <section id="lazybox">
@@ -24,12 +24,29 @@
             <main>
                 <p>Search for music using unorthodox methods</p>
                 <input type="text" id="query"/>
-                <input type="submit" value="LET'S GO" onclick="searchinput(document.getElementById('query'))"/>
+                <input type="submit" value="LET'S GO" onclick="search(document.getElementById('query'))"/>
                 <p id="dank"></p>
+                <table id="results">
+                    <tr>
+                        <th><p>Cover</p></th>
+                        <th><p>Song</p></th>
+                        <th><p>Artist</p></th>
+                        <th><p>Album</p></th>
+                        <th><p>Link</p></th>
+                    </tr>
+                    <tr>
+                        <td><img src="https://upload.wikimedia.org/wikipedia/en/1/16/Gojira_-_The_Way_of_All_Flesh_-_2008.jpg"></td>
+                        <td><p>Toxic Garbage Island</p></td>
+                        <td><p>Gojira</p></td>
+                        <td><p>The Way of all Flesh</p></td>
+                        <td><a href="https://play.spotify.com/track/5e0OSsSpWpQ2kS7Z9CGLDu">Spotify link</a></td>
+                    </tr>
+                    <a href="#" onclick="InsertRow();return false;">InsertRow</a>
+                </table>
             </main>
-            <footer>
-                <p>Copyrights and disclaimers and licences and whatever</p>
-            </footer>
         </section>
+        <footer>
+            <p>Copyrights and disclaimers and licences and whatever</p>
+        </footer>
     </body>
 </html>

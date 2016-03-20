@@ -9,13 +9,10 @@ function searchinput(temp){
     console.log(input);
     
     
-    //fjerner whitespace fra strings
-    //Er dette noko vi vil ha?
-    //Viss eg søker etter "Royal Republic" vill eg ha treff på bandet Royal Republic
-    //Ikkje "RoyalRepublic"
+    //fjerner leading og trailing whitespace fra strings
     for(var x = 0; x < input.length; x++){
         var oldString = input[x];
-        input[x] = oldString.replace(/\s+/g,"");
+        input[x] = oldString.replace(/^\s+|\s+$/g, '');
     }
     searchConcepts(input);
     

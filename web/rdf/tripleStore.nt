@@ -1,0 +1,795 @@
+<#04EZkl6zsQsmOfRxLfoGe4> <http://semanticmusic.xyz/vocab/title> "Two Steps, Twice" .
+<#04EZkl6zsQsmOfRxLfoGe4> <http://semanticmusic.xyz/vocab/artist> "Foals" .
+<#04EZkl6zsQsmOfRxLfoGe4> <http://semanticmusic.xyz/vocab/album> "Antidotes" .
+<#04EZkl6zsQsmOfRxLfoGe4> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/944d00a9f848a11a70e15d2398eef74371fb5c43" .
+<#04EZkl6zsQsmOfRxLfoGe4> <http://semanticmusic.xyz/vocab/duration> "281159" .
+<#04EZkl6zsQsmOfRxLfoGe4> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#0b6G1IrVi64WQSeValvkRP> <http://semanticmusic.xyz/vocab/title> "Midnight Shifter" .
+<#0b6G1IrVi64WQSeValvkRP> <http://semanticmusic.xyz/vocab/artist> "The Hives" .
+<#0b6G1IrVi64WQSeValvkRP> <http://semanticmusic.xyz/vocab/album> "Lex Hives" .
+<#0b6G1IrVi64WQSeValvkRP> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/c7de2435156b9009980ba3c02cb042dd7c07fc1e" .
+<#0b6G1IrVi64WQSeValvkRP> <http://semanticmusic.xyz/vocab/duration> "216813" .
+<#0b6G1IrVi64WQSeValvkRP> <http://semanticmusic.xyz/vocab/genre> "garage rock" .
+<#01iIEbMiRdwhWADZMgLczS> <http://semanticmusic.xyz/vocab/concept> "Automobile" .
+<#01iIEbMiRdwhWADZMgLczS> <http://semanticmusic.xyz/vocab/concept> "English-language films" .
+<#01iIEbMiRdwhWADZMgLczS> <http://semanticmusic.xyz/vocab/title> "The Price Of Gasoline" .
+<#01iIEbMiRdwhWADZMgLczS> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#01iIEbMiRdwhWADZMgLczS> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#01iIEbMiRdwhWADZMgLczS> <http://semanticmusic.xyz/vocab/emotion> "fear" .
+<#01iIEbMiRdwhWADZMgLczS> <http://semanticmusic.xyz/vocab/album> "Silent Alarm (U.S. Version)" .
+<#01iIEbMiRdwhWADZMgLczS> <http://semanticmusic.xyz/vocab/concept> "2003 singles" .
+<#01iIEbMiRdwhWADZMgLczS> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/44519caf1ce0fa0b601afcc322a6bbf67dcdd0e0" .
+<#01iIEbMiRdwhWADZMgLczS> <http://semanticmusic.xyz/vocab/emotion> "sadness" .
+<#01iIEbMiRdwhWADZMgLczS> <http://semanticmusic.xyz/vocab/duration> "259226" .
+<#01iIEbMiRdwhWADZMgLczS> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#01tdmN2SakNNaSJx0TmTDM> <http://semanticmusic.xyz/vocab/title> "The Boy In The Bubble" .
+<#01tdmN2SakNNaSJx0TmTDM> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#01tdmN2SakNNaSJx0TmTDM> <http://semanticmusic.xyz/vocab/album> "Scratch My Back / And I'll Scratch Yours" .
+<#01tdmN2SakNNaSJx0TmTDM> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/da8bf6ef497dd8c0e123992106b766d356f00af1" .
+<#01tdmN2SakNNaSJx0TmTDM> <http://semanticmusic.xyz/vocab/duration> "267666" .
+<#01tdmN2SakNNaSJx0TmTDM> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#01tdmN2SakNNaSJx0TmTDM> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#01tdmN2SakNNaSJx0TmTDM> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#0CDQDZl5zu3hFZs4ci2w8a> <http://semanticmusic.xyz/vocab/title> "Not One Of Us" .
+<#0CDQDZl5zu3hFZs4ci2w8a> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#0CDQDZl5zu3hFZs4ci2w8a> <http://semanticmusic.xyz/vocab/album> "Peter Gabriel: And I'll Scratch Yours" .
+<#0CDQDZl5zu3hFZs4ci2w8a> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/a4f17f20d1ce9b6540a3098796d014e7b0c1ace9" .
+<#0CDQDZl5zu3hFZs4ci2w8a> <http://semanticmusic.xyz/vocab/duration> "229386" .
+<#0CDQDZl5zu3hFZs4ci2w8a> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#0CDQDZl5zu3hFZs4ci2w8a> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#0CDQDZl5zu3hFZs4ci2w8a> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#08NCn0yGBsUdlXxK8bKHiN> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#08NCn0yGBsUdlXxK8bKHiN> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#08NCn0yGBsUdlXxK8bKHiN> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#08NCn0yGBsUdlXxK8bKHiN> <http://semanticmusic.xyz/vocab/duration> "253253" .
+<#08NCn0yGBsUdlXxK8bKHiN> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/e8e85c96f1f7bd16d9999b6e7f8a0270c6ba5e09" .
+<#08NCn0yGBsUdlXxK8bKHiN> <http://semanticmusic.xyz/vocab/album> "Juno Awards 2011" .
+<#08NCn0yGBsUdlXxK8bKHiN> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#08NCn0yGBsUdlXxK8bKHiN> <http://semanticmusic.xyz/vocab/title> "Hollywood" .
+<#0d5xt2aSJzttfHrfk0VqE6> <http://semanticmusic.xyz/vocab/title> "So Real" .
+<#0d5xt2aSJzttfHrfk0VqE6> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#0d5xt2aSJzttfHrfk0VqE6> <http://semanticmusic.xyz/vocab/album> "Hymns (Deluxe Edition)" .
+<#0d5xt2aSJzttfHrfk0VqE6> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/daec0819ff7afa426a8ea0d0c117b68132fb7485" .
+<#0d5xt2aSJzttfHrfk0VqE6> <http://semanticmusic.xyz/vocab/duration> "203924" .
+<#0d5xt2aSJzttfHrfk0VqE6> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#0epnpRd8d5HwINrggIaG9d> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#0epnpRd8d5HwINrggIaG9d> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#0epnpRd8d5HwINrggIaG9d> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#0epnpRd8d5HwINrggIaG9d> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/3e47163b7a5e91412247643da42180d5ba3e8367" .
+<#0epnpRd8d5HwINrggIaG9d> <http://semanticmusic.xyz/vocab/emotion> "fear" .
+<#0epnpRd8d5HwINrggIaG9d> <http://semanticmusic.xyz/vocab/duration> "279760" .
+<#0epnpRd8d5HwINrggIaG9d> <http://semanticmusic.xyz/vocab/title> "Modern Man" .
+<#0epnpRd8d5HwINrggIaG9d> <http://semanticmusic.xyz/vocab/emotion> "disgust" .
+<#0epnpRd8d5HwINrggIaG9d> <http://semanticmusic.xyz/vocab/album> "The Suburbs" .
+<#0epnpRd8d5HwINrggIaG9d> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#0epnpRd8d5HwINrggIaG9d> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#0FvM0bvtpkLQljNm2Rwns0> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#0FvM0bvtpkLQljNm2Rwns0> <http://semanticmusic.xyz/vocab/duration> "239158" .
+<#0FvM0bvtpkLQljNm2Rwns0> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/daec0819ff7afa426a8ea0d0c117b68132fb7485" .
+<#0FvM0bvtpkLQljNm2Rwns0> <http://semanticmusic.xyz/vocab/album> "Hymns" .
+<#0FvM0bvtpkLQljNm2Rwns0> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#0FvM0bvtpkLQljNm2Rwns0> <http://semanticmusic.xyz/vocab/title> "Into The Earth" .
+<#072sf4vCRkvJUB0NbbIUxe> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#072sf4vCRkvJUB0NbbIUxe> <http://semanticmusic.xyz/vocab/duration> "255066" .
+<#072sf4vCRkvJUB0NbbIUxe> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/751cb927930d1ffbaaabfc257d1636967573a8bf" .
+<#072sf4vCRkvJUB0NbbIUxe> <http://semanticmusic.xyz/vocab/album> "A Weekend In The City" .
+<#072sf4vCRkvJUB0NbbIUxe> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#072sf4vCRkvJUB0NbbIUxe> <http://semanticmusic.xyz/vocab/title> "Waiting For The 7.18" .
+<#00Qz939Z8OXPTecu6ZxMxK> <http://semanticmusic.xyz/vocab/title> "Ready To Start" .
+<#00Qz939Z8OXPTecu6ZxMxK> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#00Qz939Z8OXPTecu6ZxMxK> <http://semanticmusic.xyz/vocab/album> "Juno Awards 2011" .
+<#00Qz939Z8OXPTecu6ZxMxK> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/e8e85c96f1f7bd16d9999b6e7f8a0270c6ba5e09" .
+<#00Qz939Z8OXPTecu6ZxMxK> <http://semanticmusic.xyz/vocab/duration> "255733" .
+<#00Qz939Z8OXPTecu6ZxMxK> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#00Qz939Z8OXPTecu6ZxMxK> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#00Qz939Z8OXPTecu6ZxMxK> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#0C7EY76hwDhKCx3y5uhKtZ> <http://semanticmusic.xyz/vocab/title> "Day Four" .
+<#0C7EY76hwDhKCx3y5uhKtZ> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#0C7EY76hwDhKCx3y5uhKtZ> <http://semanticmusic.xyz/vocab/album> "FOUR (Deluxe Version)" .
+<#0C7EY76hwDhKCx3y5uhKtZ> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/d3fc9b0d83eab0f7bb7b6b2b6970d89d7737afce" .
+<#0C7EY76hwDhKCx3y5uhKtZ> <http://semanticmusic.xyz/vocab/duration> "251240" .
+<#0C7EY76hwDhKCx3y5uhKtZ> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#04Hw0ht66OxzxnHco3PiuK> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#04Hw0ht66OxzxnHco3PiuK> <http://semanticmusic.xyz/vocab/duration> "149346" .
+<#04Hw0ht66OxzxnHco3PiuK> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/d3fc9b0d83eab0f7bb7b6b2b6970d89d7737afce" .
+<#04Hw0ht66OxzxnHco3PiuK> <http://semanticmusic.xyz/vocab/album> "FOUR (Deluxe Version)" .
+<#04Hw0ht66OxzxnHco3PiuK> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#04Hw0ht66OxzxnHco3PiuK> <http://semanticmusic.xyz/vocab/title> "Coliseum" .
+<#00bqYbhRdF6YttFfZGtfWC> <http://semanticmusic.xyz/vocab/title> "Full Steam Spacemachine" .
+<#00bqYbhRdF6YttFfZGtfWC> <http://semanticmusic.xyz/vocab/artist> "Royal Republic" .
+<#00bqYbhRdF6YttFfZGtfWC> <http://semanticmusic.xyz/vocab/album> "Full Steam Spacemachine" .
+<#00bqYbhRdF6YttFfZGtfWC> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/acb55ac2fbb3763fbba6e907b38d7c32cffb8ab4" .
+<#00bqYbhRdF6YttFfZGtfWC> <http://semanticmusic.xyz/vocab/duration> "208133" .
+<#00bqYbhRdF6YttFfZGtfWC> <http://semanticmusic.xyz/vocab/genre> "swedish alternative rock" .
+<#03ab0p4BOF7FNb7n8yNAlf> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#03ab0p4BOF7FNb7n8yNAlf> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#03ab0p4BOF7FNb7n8yNAlf> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#03ab0p4BOF7FNb7n8yNAlf> <http://semanticmusic.xyz/vocab/concept> "Morris Day" .
+<#03ab0p4BOF7FNb7n8yNAlf> <http://semanticmusic.xyz/vocab/album> "The Suburbs" .
+<#03ab0p4BOF7FNb7n8yNAlf> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/9ac4629df200735f23eb37beb4dc3ed29c1a163a" .
+<#03ab0p4BOF7FNb7n8yNAlf> <http://semanticmusic.xyz/vocab/emotion> "sadness" .
+<#03ab0p4BOF7FNb7n8yNAlf> <http://semanticmusic.xyz/vocab/concept> "Time" .
+<#03ab0p4BOF7FNb7n8yNAlf> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#03ab0p4BOF7FNb7n8yNAlf> <http://semanticmusic.xyz/vocab/concept> "Monte Moir" .
+<#03ab0p4BOF7FNb7n8yNAlf> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#03ab0p4BOF7FNb7n8yNAlf> <http://semanticmusic.xyz/vocab/emotion> "fear" .
+<#03ab0p4BOF7FNb7n8yNAlf> <http://semanticmusic.xyz/vocab/title> "The Suburbs (Continued)" .
+<#03ab0p4BOF7FNb7n8yNAlf> <http://semanticmusic.xyz/vocab/duration> "87626" .
+<#02u3QPmnizDzeVNILOTuTq> <http://semanticmusic.xyz/vocab/album> "A Weekend in the City" .
+<#02u3QPmnizDzeVNILOTuTq> <http://semanticmusic.xyz/vocab/concept> "Baseball statistics" .
+<#02u3QPmnizDzeVNILOTuTq> <http://semanticmusic.xyz/vocab/duration> "327333" .
+<#02u3QPmnizDzeVNILOTuTq> <http://semanticmusic.xyz/vocab/concept> "New York City" .
+<#02u3QPmnizDzeVNILOTuTq> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#02u3QPmnizDzeVNILOTuTq> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#02u3QPmnizDzeVNILOTuTq> <http://semanticmusic.xyz/vocab/concept> "East Germany" .
+<#02u3QPmnizDzeVNILOTuTq> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#02u3QPmnizDzeVNILOTuTq> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/3a7aa4c4e8c13940bfbee3a97ae0981a0b1728ab" .
+<#02u3QPmnizDzeVNILOTuTq> <http://semanticmusic.xyz/vocab/concept> "Berlin Wall" .
+<#02u3QPmnizDzeVNILOTuTq> <http://semanticmusic.xyz/vocab/title> "Kreuzberg" .
+<#02u3QPmnizDzeVNILOTuTq> <http://semanticmusic.xyz/vocab/concept> "East Berlin" .
+<#02u3QPmnizDzeVNILOTuTq> <http://semanticmusic.xyz/vocab/concept> "West Berlin" .
+<#02u3QPmnizDzeVNILOTuTq> <http://semanticmusic.xyz/vocab/concept> "West Germany" .
+<#02u3QPmnizDzeVNILOTuTq> <http://semanticmusic.xyz/vocab/concept> "Berlin" .
+<#02u3QPmnizDzeVNILOTuTq> <http://semanticmusic.xyz/vocab/emotion> "fear" .
+<#048buHnzMSZmqbyzr4ZpaL> <http://semanticmusic.xyz/vocab/concept> "Prince" .
+<#048buHnzMSZmqbyzr4ZpaL> <http://semanticmusic.xyz/vocab/album> "Neon Bible" .
+<#048buHnzMSZmqbyzr4ZpaL> <http://semanticmusic.xyz/vocab/concept> "2007 albums" .
+<#048buHnzMSZmqbyzr4ZpaL> <http://semanticmusic.xyz/vocab/concept> "Moon" .
+<#048buHnzMSZmqbyzr4ZpaL> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#048buHnzMSZmqbyzr4ZpaL> <http://semanticmusic.xyz/vocab/concept> "2006 albums" .
+<#048buHnzMSZmqbyzr4ZpaL> <http://semanticmusic.xyz/vocab/emotion> "sadness" .
+<#048buHnzMSZmqbyzr4ZpaL> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#048buHnzMSZmqbyzr4ZpaL> <http://semanticmusic.xyz/vocab/concept> "2005 albums" .
+<#048buHnzMSZmqbyzr4ZpaL> <http://semanticmusic.xyz/vocab/concept> "Earth" .
+<#048buHnzMSZmqbyzr4ZpaL> <http://semanticmusic.xyz/vocab/concept> "Debut albums" .
+<#048buHnzMSZmqbyzr4ZpaL> <http://semanticmusic.xyz/vocab/emotion> "fear" .
+<#048buHnzMSZmqbyzr4ZpaL> <http://semanticmusic.xyz/vocab/title> "The Well and the Lighthouse" .
+<#048buHnzMSZmqbyzr4ZpaL> <http://semanticmusic.xyz/vocab/concept> "Truth" .
+<#048buHnzMSZmqbyzr4ZpaL> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#048buHnzMSZmqbyzr4ZpaL> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/c0ca618d41c87588c3035a5964c1a81f354e55fb" .
+<#048buHnzMSZmqbyzr4ZpaL> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#048buHnzMSZmqbyzr4ZpaL> <http://semanticmusic.xyz/vocab/duration> "236706" .
+<#048buHnzMSZmqbyzr4ZpaL> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#04ODhIquewQuuXqS2GmcpC> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#04ODhIquewQuuXqS2GmcpC> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#04ODhIquewQuuXqS2GmcpC> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#04ODhIquewQuuXqS2GmcpC> <http://semanticmusic.xyz/vocab/duration> "273373" .
+<#04ODhIquewQuuXqS2GmcpC> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/ee0002b021a888cee5bbe043fbd6ec274291f0c2" .
+<#04ODhIquewQuuXqS2GmcpC> <http://semanticmusic.xyz/vocab/album> "Jogos Vorazes/The Hunger Games: Songs From District 12 And Beyond" .
+<#04ODhIquewQuuXqS2GmcpC> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#04ODhIquewQuuXqS2GmcpC> <http://semanticmusic.xyz/vocab/title> "The Ruler And The Killer" .
+<#0asgUXlUG3DCI7MrUNYjC0> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#0asgUXlUG3DCI7MrUNYjC0> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#0asgUXlUG3DCI7MrUNYjC0> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#0asgUXlUG3DCI7MrUNYjC0> <http://semanticmusic.xyz/vocab/duration> "327906" .
+<#0asgUXlUG3DCI7MrUNYjC0> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/2bcf693a0f4c7926c93425da4c52211ddffbcc39" .
+<#0asgUXlUG3DCI7MrUNYjC0> <http://semanticmusic.xyz/vocab/album> "The Suburbs (Deluxe Edition)" .
+<#0asgUXlUG3DCI7MrUNYjC0> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#0asgUXlUG3DCI7MrUNYjC0> <http://semanticmusic.xyz/vocab/title> "Sprawl II (Mountains Beyond Mountains)" .
+<#01aYnLmvm66UZIwvB88BJS> <http://semanticmusic.xyz/vocab/title> "Living Lux" .
+<#01aYnLmvm66UZIwvB88BJS> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#01aYnLmvm66UZIwvB88BJS> <http://semanticmusic.xyz/vocab/album> "Hymns" .
+<#01aYnLmvm66UZIwvB88BJS> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/daec0819ff7afa426a8ea0d0c117b68132fb7485" .
+<#01aYnLmvm66UZIwvB88BJS> <http://semanticmusic.xyz/vocab/duration> "246483" .
+<#01aYnLmvm66UZIwvB88BJS> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#0GbEleS0tr7mLF3tZTP3aI> <http://semanticmusic.xyz/vocab/genre> "garage rock" .
+<#0GbEleS0tr7mLF3tZTP3aI> <http://semanticmusic.xyz/vocab/duration> "226466" .
+<#0GbEleS0tr7mLF3tZTP3aI> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/3fbd8a787313e5dd25ff920b7f8474f7074d7407" .
+<#0GbEleS0tr7mLF3tZTP3aI> <http://semanticmusic.xyz/vocab/album> "The Black And White Album (US Version)" .
+<#0GbEleS0tr7mLF3tZTP3aI> <http://semanticmusic.xyz/vocab/artist> "The Hives" .
+<#0GbEleS0tr7mLF3tZTP3aI> <http://semanticmusic.xyz/vocab/title> "Won't Be Long" .
+<#06rnQUEcoMl5qhtEscC7Yo> <http://semanticmusic.xyz/vocab/emotion> "fear" .
+<#06rnQUEcoMl5qhtEscC7Yo> <http://semanticmusic.xyz/vocab/concept> "1995 albums" .
+<#06rnQUEcoMl5qhtEscC7Yo> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/40a9aecc6b9f6f6836b5766eef20a9e9c9f78f81" .
+<#06rnQUEcoMl5qhtEscC7Yo> <http://semanticmusic.xyz/vocab/concept> "Earth" .
+<#06rnQUEcoMl5qhtEscC7Yo> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#06rnQUEcoMl5qhtEscC7Yo> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#06rnQUEcoMl5qhtEscC7Yo> <http://semanticmusic.xyz/vocab/duration> "195968" .
+<#06rnQUEcoMl5qhtEscC7Yo> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#06rnQUEcoMl5qhtEscC7Yo> <http://semanticmusic.xyz/vocab/concept> "World" .
+<#06rnQUEcoMl5qhtEscC7Yo> <http://semanticmusic.xyz/vocab/album> "Reflektor (Deluxe)" .
+<#06rnQUEcoMl5qhtEscC7Yo> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#06rnQUEcoMl5qhtEscC7Yo> <http://semanticmusic.xyz/vocab/concept> "Universe" .
+<#06rnQUEcoMl5qhtEscC7Yo> <http://semanticmusic.xyz/vocab/title> "Women Of A Certain Age" .
+<#06rnQUEcoMl5qhtEscC7Yo> <http://semanticmusic.xyz/vocab/emotion> "disgust" .
+<#06rnQUEcoMl5qhtEscC7Yo> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#0EambFNWZIwPCdIQ6b6iZS> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#0EambFNWZIwPCdIQ6b6iZS> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#0EambFNWZIwPCdIQ6b6iZS> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#0EambFNWZIwPCdIQ6b6iZS> <http://semanticmusic.xyz/vocab/duration> "87626" .
+<#0EambFNWZIwPCdIQ6b6iZS> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/9ca83e6857f52d8fbba1db24ee4c630fffba6a6c" .
+<#0EambFNWZIwPCdIQ6b6iZS> <http://semanticmusic.xyz/vocab/album> "The Suburbs" .
+<#0EambFNWZIwPCdIQ6b6iZS> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#0EambFNWZIwPCdIQ6b6iZS> <http://semanticmusic.xyz/vocab/title> "The Suburbs (Continued)" .
+<#0dTquqyuvdKL6lcE48orCb> <http://semanticmusic.xyz/vocab/concept> "The Streets" .
+<#0dTquqyuvdKL6lcE48orCb> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/6a5ab89b09f8dc52fcdfe5edebbe83ad1155c0a9" .
+<#0dTquqyuvdKL6lcE48orCb> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#0dTquqyuvdKL6lcE48orCb> <http://semanticmusic.xyz/vocab/artist> "The Hives" .
+<#0dTquqyuvdKL6lcE48orCb> <http://semanticmusic.xyz/vocab/emotion> "fear" .
+<#0dTquqyuvdKL6lcE48orCb> <http://semanticmusic.xyz/vocab/duration> "185626" .
+<#0dTquqyuvdKL6lcE48orCb> <http://semanticmusic.xyz/vocab/title> "Go Right Ahead" .
+<#0dTquqyuvdKL6lcE48orCb> <http://semanticmusic.xyz/vocab/genre> "garage rock" .
+<#0dTquqyuvdKL6lcE48orCb> <http://semanticmusic.xyz/vocab/concept> "Late at Night" .
+<#0dTquqyuvdKL6lcE48orCb> <http://semanticmusic.xyz/vocab/album> "Lex Hives" .
+<#0f1uuqNFllkKQcKnF1WGB3> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#0f1uuqNFllkKQcKnF1WGB3> <http://semanticmusic.xyz/vocab/genre> "garage rock" .
+<#0f1uuqNFllkKQcKnF1WGB3> <http://semanticmusic.xyz/vocab/title> "Knock Knock" .
+<#0f1uuqNFllkKQcKnF1WGB3> <http://semanticmusic.xyz/vocab/concept> "English grammar" .
+<#0f1uuqNFllkKQcKnF1WGB3> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/e1d3bdf271cab5aef7ba263998cb04060b5949c0" .
+<#0f1uuqNFllkKQcKnF1WGB3> <http://semanticmusic.xyz/vocab/artist> "The Hives" .
+<#0f1uuqNFllkKQcKnF1WGB3> <http://semanticmusic.xyz/vocab/concept> "2006 singles" .
+<#0f1uuqNFllkKQcKnF1WGB3> <http://semanticmusic.xyz/vocab/emotion> "fear" .
+<#0f1uuqNFllkKQcKnF1WGB3> <http://semanticmusic.xyz/vocab/concept> "2007 singles" .
+<#0f1uuqNFllkKQcKnF1WGB3> <http://semanticmusic.xyz/vocab/concept> "Failure" .
+<#0f1uuqNFllkKQcKnF1WGB3> <http://semanticmusic.xyz/vocab/duration> "130400" .
+<#0f1uuqNFllkKQcKnF1WGB3> <http://semanticmusic.xyz/vocab/album> "Veni Vidi Vicious" .
+<#073V2OJ9oYyhEa4XvoXn2d> <http://semanticmusic.xyz/vocab/genre> "swedish alternative rock" .
+<#073V2OJ9oYyhEa4XvoXn2d> <http://semanticmusic.xyz/vocab/duration> "121720" .
+<#073V2OJ9oYyhEa4XvoXn2d> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/2182f8a2dbcaa009d2bee0bac5b1d230db697766" .
+<#073V2OJ9oYyhEa4XvoXn2d> <http://semanticmusic.xyz/vocab/album> "We Are The Royal" .
+<#073V2OJ9oYyhEa4XvoXn2d> <http://semanticmusic.xyz/vocab/artist> "Royal Republic" .
+<#073V2OJ9oYyhEa4XvoXn2d> <http://semanticmusic.xyz/vocab/title> "Underwear" .
+<#0G6QAcpE74VcWpB6hMNMtC> <http://semanticmusic.xyz/vocab/genre> "garage rock" .
+<#0G6QAcpE74VcWpB6hMNMtC> <http://semanticmusic.xyz/vocab/duration> "93613" .
+<#0G6QAcpE74VcWpB6hMNMtC> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/68e8d1815419ac858f631942f1db47b36ec7a966" .
+<#0G6QAcpE74VcWpB6hMNMtC> <http://semanticmusic.xyz/vocab/album> "Tyrannosaurus Hives (EU Version)" .
+<#0G6QAcpE74VcWpB6hMNMtC> <http://semanticmusic.xyz/vocab/artist> "The Hives" .
+<#0G6QAcpE74VcWpB6hMNMtC> <http://semanticmusic.xyz/vocab/title> "Abra Cadaver" .
+<#0Al39wHGjcsF64d5axGMop> <http://semanticmusic.xyz/vocab/emotion> "joy" .
+<#0Al39wHGjcsF64d5axGMop> <http://semanticmusic.xyz/vocab/concept> "Foie gras controversy" .
+<#0Al39wHGjcsF64d5axGMop> <http://semanticmusic.xyz/vocab/concept> "Foie gras" .
+<#0Al39wHGjcsF64d5axGMop> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#0Al39wHGjcsF64d5axGMop> <http://semanticmusic.xyz/vocab/duration> "289600" .
+<#0Al39wHGjcsF64d5axGMop> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/3a7aa4c4e8c13940bfbee3a97ae0981a0b1728ab" .
+<#0Al39wHGjcsF64d5axGMop> <http://semanticmusic.xyz/vocab/album> "A Weekend in the City" .
+<#0Al39wHGjcsF64d5axGMop> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#0Al39wHGjcsF64d5axGMop> <http://semanticmusic.xyz/vocab/title> "Song For Clay (Disappear Here)" .
+<#0fe3xwdsXn3JXWLyB9Sj4P> <http://semanticmusic.xyz/vocab/genre> "swedish alternative rock" .
+<#0fe3xwdsXn3JXWLyB9Sj4P> <http://semanticmusic.xyz/vocab/duration> "240413" .
+<#0fe3xwdsXn3JXWLyB9Sj4P> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/84f73b9b755c79d1fb83fe50036aeae4eaf5c181" .
+<#0fe3xwdsXn3JXWLyB9Sj4P> <http://semanticmusic.xyz/vocab/album> "Supernova Rock Volume 1" .
+<#0fe3xwdsXn3JXWLyB9Sj4P> <http://semanticmusic.xyz/vocab/artist> "Royal Republic" .
+<#0fe3xwdsXn3JXWLyB9Sj4P> <http://semanticmusic.xyz/vocab/title> "Open Eyes" .
+<#0EJ2RozZyb91asNWtKpYO2> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#0EJ2RozZyb91asNWtKpYO2> <http://semanticmusic.xyz/vocab/duration> "220173" .
+<#0EJ2RozZyb91asNWtKpYO2> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/a5f5571d9909706d4e12d5626001a6e8630983d4" .
+<#0EJ2RozZyb91asNWtKpYO2> <http://semanticmusic.xyz/vocab/album> "Silent Alarm" .
+<#0EJ2RozZyb91asNWtKpYO2> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#0EJ2RozZyb91asNWtKpYO2> <http://semanticmusic.xyz/vocab/title> "Helicopter" .
+<#089Fg15thH952L0YRZzWFS> <http://semanticmusic.xyz/vocab/genre> "garage rock" .
+<#089Fg15thH952L0YRZzWFS> <http://semanticmusic.xyz/vocab/duration> "118693" .
+<#089Fg15thH952L0YRZzWFS> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/e1b63d2bcc569a6c2885ec7783bf81c6e9bef751" .
+<#089Fg15thH952L0YRZzWFS> <http://semanticmusic.xyz/vocab/album> "Tyrannosaurus Hives (Non EU Version)" .
+<#089Fg15thH952L0YRZzWFS> <http://semanticmusic.xyz/vocab/artist> "The Hives" .
+<#089Fg15thH952L0YRZzWFS> <http://semanticmusic.xyz/vocab/title> "Dead Quote Olympics" .
+<#03Ke2XiKWejRMyaY0uSYiD> <http://semanticmusic.xyz/vocab/title> "Oh...Canada" .
+<#03Ke2XiKWejRMyaY0uSYiD> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#03Ke2XiKWejRMyaY0uSYiD> <http://semanticmusic.xyz/vocab/album> "Juno Awards 2011" .
+<#03Ke2XiKWejRMyaY0uSYiD> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/e8e85c96f1f7bd16d9999b6e7f8a0270c6ba5e09" .
+<#03Ke2XiKWejRMyaY0uSYiD> <http://semanticmusic.xyz/vocab/duration> "203400" .
+<#03Ke2XiKWejRMyaY0uSYiD> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#03Ke2XiKWejRMyaY0uSYiD> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#03Ke2XiKWejRMyaY0uSYiD> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#0DgXdkUCzPSDBVMhMFSaoK> <http://semanticmusic.xyz/vocab/title> "2 Trees" .
+<#0DgXdkUCzPSDBVMhMFSaoK> <http://semanticmusic.xyz/vocab/artist> "Foals" .
+<#0DgXdkUCzPSDBVMhMFSaoK> <http://semanticmusic.xyz/vocab/album> "Total Life Forever" .
+<#0DgXdkUCzPSDBVMhMFSaoK> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/60f405dee05b2a5cc29bc05bae3b3b1b9c1285fb" .
+<#0DgXdkUCzPSDBVMhMFSaoK> <http://semanticmusic.xyz/vocab/duration> "315506" .
+<#0DgXdkUCzPSDBVMhMFSaoK> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#04UKz7Css5UVVefsXcPgaZ> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#04UKz7Css5UVVefsXcPgaZ> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#04UKz7Css5UVVefsXcPgaZ> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#04UKz7Css5UVVefsXcPgaZ> <http://semanticmusic.xyz/vocab/duration> "255720" .
+<#04UKz7Css5UVVefsXcPgaZ> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/3789e9dc111c3db638ec4bc0e294bfd147de2724" .
+<#04UKz7Css5UVVefsXcPgaZ> <http://semanticmusic.xyz/vocab/album> "Die Tribute Von Panem/The Hunger Games: Songs From District 12 And Beyond" .
+<#04UKz7Css5UVVefsXcPgaZ> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#04UKz7Css5UVVefsXcPgaZ> <http://semanticmusic.xyz/vocab/title> "Lover Is Childlike" .
+<#06poVjkonFIQsidwKlxbD2> <http://semanticmusic.xyz/vocab/emotion> "sadness" .
+<#06poVjkonFIQsidwKlxbD2> <http://semanticmusic.xyz/vocab/emotion> "fear" .
+<#06poVjkonFIQsidwKlxbD2> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#06poVjkonFIQsidwKlxbD2> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#06poVjkonFIQsidwKlxbD2> <http://semanticmusic.xyz/vocab/duration> "210800" .
+<#06poVjkonFIQsidwKlxbD2> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/d0ec27914d3d338b95b2519746f514d1641c877a" .
+<#06poVjkonFIQsidwKlxbD2> <http://semanticmusic.xyz/vocab/album> "Intimacy" .
+<#06poVjkonFIQsidwKlxbD2> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#06poVjkonFIQsidwKlxbD2> <http://semanticmusic.xyz/vocab/title> "Trojan Horse" .
+<#0c1CcUCMnzJ7XlPsARtbWk> <http://semanticmusic.xyz/vocab/title> "Oioioi" .
+<#0c1CcUCMnzJ7XlPsARtbWk> <http://semanticmusic.xyz/vocab/artist> "Royal Republic" .
+<#0c1CcUCMnzJ7XlPsARtbWk> <http://semanticmusic.xyz/vocab/album> "We Are the Royal" .
+<#0c1CcUCMnzJ7XlPsARtbWk> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/975edf3c8b7a4c174be8331bef8ed259b2a2063d" .
+<#0c1CcUCMnzJ7XlPsARtbWk> <http://semanticmusic.xyz/vocab/duration> "286173" .
+<#0c1CcUCMnzJ7XlPsARtbWk> <http://semanticmusic.xyz/vocab/genre> "swedish alternative rock" .
+<#0EZKCQ5oQLSl0XyhC4D6aO> <http://semanticmusic.xyz/vocab/genre> "swedish alternative rock" .
+<#0EZKCQ5oQLSl0XyhC4D6aO> <http://semanticmusic.xyz/vocab/duration> "181163" .
+<#0EZKCQ5oQLSl0XyhC4D6aO> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/1693a4ac6793a93825358391cc5ec76a2301c055" .
+<#0EZKCQ5oQLSl0XyhC4D6aO> <http://semanticmusic.xyz/vocab/album> "Save The Nation" .
+<#0EZKCQ5oQLSl0XyhC4D6aO> <http://semanticmusic.xyz/vocab/artist> "Royal Republic" .
+<#0EZKCQ5oQLSl0XyhC4D6aO> <http://semanticmusic.xyz/vocab/title> "Save the Nation" .
+<#00Eqx1s9x5lcni8t0gnONc> <http://semanticmusic.xyz/vocab/title> "Get Right" .
+<#00Eqx1s9x5lcni8t0gnONc> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#00Eqx1s9x5lcni8t0gnONc> <http://semanticmusic.xyz/vocab/album> "Reflektor (Deluxe)" .
+<#00Eqx1s9x5lcni8t0gnONc> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/3801cba1662ecf9a9be8b502314571e0c7fcb48a" .
+<#00Eqx1s9x5lcni8t0gnONc> <http://semanticmusic.xyz/vocab/duration> "281077" .
+<#00Eqx1s9x5lcni8t0gnONc> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#00Eqx1s9x5lcni8t0gnONc> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#00Eqx1s9x5lcni8t0gnONc> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#0GDfPb8C2wxX7sxTeu9QzA> <http://semanticmusic.xyz/vocab/concept> "Rationing" .
+<#0GDfPb8C2wxX7sxTeu9QzA> <http://semanticmusic.xyz/vocab/album> "Veni Vidi Vicious" .
+<#0GDfPb8C2wxX7sxTeu9QzA> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#0GDfPb8C2wxX7sxTeu9QzA> <http://semanticmusic.xyz/vocab/title> "Supply And Demand" .
+<#0GDfPb8C2wxX7sxTeu9QzA> <http://semanticmusic.xyz/vocab/genre> "garage rock" .
+<#0GDfPb8C2wxX7sxTeu9QzA> <http://semanticmusic.xyz/vocab/duration> "146800" .
+<#0GDfPb8C2wxX7sxTeu9QzA> <http://semanticmusic.xyz/vocab/emotion> "disgust" .
+<#0GDfPb8C2wxX7sxTeu9QzA> <http://semanticmusic.xyz/vocab/concept> "Supply and demand" .
+<#0GDfPb8C2wxX7sxTeu9QzA> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/e1d3bdf271cab5aef7ba263998cb04060b5949c0" .
+<#0GDfPb8C2wxX7sxTeu9QzA> <http://semanticmusic.xyz/vocab/artist> "The Hives" .
+<#05pYGBaNqoIqsy5FjsnL1o> <http://semanticmusic.xyz/vocab/genre> "garage rock" .
+<#05pYGBaNqoIqsy5FjsnL1o> <http://semanticmusic.xyz/vocab/duration> "127066" .
+<#05pYGBaNqoIqsy5FjsnL1o> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/1638cd98add3169061e1cf6bce77dfb8e47d882a" .
+<#05pYGBaNqoIqsy5FjsnL1o> <http://semanticmusic.xyz/vocab/album> "Lex Hives" .
+<#05pYGBaNqoIqsy5FjsnL1o> <http://semanticmusic.xyz/vocab/artist> "The Hives" .
+<#05pYGBaNqoIqsy5FjsnL1o> <http://semanticmusic.xyz/vocab/title> "1000 Answers" .
+<#0btyVVwKDS2VxtDUg9mbbv> <http://semanticmusic.xyz/vocab/title> "Strangers Friends Lovers Strangers" .
+<#0btyVVwKDS2VxtDUg9mbbv> <http://semanticmusic.xyz/vocab/artist> "Royal Republic" .
+<#0btyVVwKDS2VxtDUg9mbbv> <http://semanticmusic.xyz/vocab/album> "Save The Nation" .
+<#0btyVVwKDS2VxtDUg9mbbv> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/1693a4ac6793a93825358391cc5ec76a2301c055" .
+<#0btyVVwKDS2VxtDUg9mbbv> <http://semanticmusic.xyz/vocab/duration> "138848" .
+<#0btyVVwKDS2VxtDUg9mbbv> <http://semanticmusic.xyz/vocab/genre> "swedish alternative rock" .
+<#0BsotUr5lkflV5yL8aCwF4> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#0BsotUr5lkflV5yL8aCwF4> <http://semanticmusic.xyz/vocab/title> "Neighborhood #4 (7 Kettles)" .
+<#0BsotUr5lkflV5yL8aCwF4> <http://semanticmusic.xyz/vocab/emotion> "fear" .
+<#0BsotUr5lkflV5yL8aCwF4> <http://semanticmusic.xyz/vocab/concept> "The Neighbors" .
+<#0BsotUr5lkflV5yL8aCwF4> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#0BsotUr5lkflV5yL8aCwF4> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#0BsotUr5lkflV5yL8aCwF4> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#0BsotUr5lkflV5yL8aCwF4> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#0BsotUr5lkflV5yL8aCwF4> <http://semanticmusic.xyz/vocab/album> "Funeral" .
+<#0BsotUr5lkflV5yL8aCwF4> <http://semanticmusic.xyz/vocab/duration> "289738" .
+<#0BsotUr5lkflV5yL8aCwF4> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/affbe6438a58327ed632b98caa5625474022f912" .
+<#0bJqh1T8UAeTKrruH3rUpX> <http://semanticmusic.xyz/vocab/title> "So He Begins To Lie" .
+<#0bJqh1T8UAeTKrruH3rUpX> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#0bJqh1T8UAeTKrruH3rUpX> <http://semanticmusic.xyz/vocab/album> "Four" .
+<#0bJqh1T8UAeTKrruH3rUpX> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/eda781af4eec248fc9f773e498e259c4818e73b7" .
+<#0bJqh1T8UAeTKrruH3rUpX> <http://semanticmusic.xyz/vocab/duration> "214173" .
+<#0bJqh1T8UAeTKrruH3rUpX> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#0bJqh1T8UAeTKrruH3rUpX> <http://semanticmusic.xyz/vocab/concept> "Camera" .
+<#0bJqh1T8UAeTKrruH3rUpX> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#0bJqh1T8UAeTKrruH3rUpX> <http://semanticmusic.xyz/vocab/emotion> "disgust" .
+<#0cAAonJ46YXeUOLhc5er5f> <http://semanticmusic.xyz/vocab/title> "No Pun Intended" .
+<#0cAAonJ46YXeUOLhc5er5f> <http://semanticmusic.xyz/vocab/artist> "The Hives" .
+<#0cAAonJ46YXeUOLhc5er5f> <http://semanticmusic.xyz/vocab/album> "Tyrannosaurus Hives (Non EU Version)" .
+<#0cAAonJ46YXeUOLhc5er5f> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/e1b63d2bcc569a6c2885ec7783bf81c6e9bef751" .
+<#0cAAonJ46YXeUOLhc5er5f> <http://semanticmusic.xyz/vocab/duration> "137306" .
+<#0cAAonJ46YXeUOLhc5er5f> <http://semanticmusic.xyz/vocab/genre> "garage rock" .
+<#0EVcALHKpAP8Bj8rWuGrQJ> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#0EVcALHKpAP8Bj8rWuGrQJ> <http://semanticmusic.xyz/vocab/duration> "48400" .
+<#0EVcALHKpAP8Bj8rWuGrQJ> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/da88959a881cdc64bd576383c755fec0af2ca5f5" .
+<#0EVcALHKpAP8Bj8rWuGrQJ> <http://semanticmusic.xyz/vocab/album> "Total Life Forever" .
+<#0EVcALHKpAP8Bj8rWuGrQJ> <http://semanticmusic.xyz/vocab/artist> "Foals" .
+<#0EVcALHKpAP8Bj8rWuGrQJ> <http://semanticmusic.xyz/vocab/title> "Fugue" .
+<#05oK0zROR8GnZGyWMcO8xU> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#05oK0zROR8GnZGyWMcO8xU> <http://semanticmusic.xyz/vocab/title> "Black Wave/Bad Vibrations" .
+<#05oK0zROR8GnZGyWMcO8xU> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#05oK0zROR8GnZGyWMcO8xU> <http://semanticmusic.xyz/vocab/concept> "United Kingdom" .
+<#05oK0zROR8GnZGyWMcO8xU> <http://semanticmusic.xyz/vocab/duration> "237506" .
+<#05oK0zROR8GnZGyWMcO8xU> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/c0ca618d41c87588c3035a5964c1a81f354e55fb" .
+<#05oK0zROR8GnZGyWMcO8xU> <http://semanticmusic.xyz/vocab/concept> "Elvis Presley" .
+<#05oK0zROR8GnZGyWMcO8xU> <http://semanticmusic.xyz/vocab/emotion> "fear" .
+<#05oK0zROR8GnZGyWMcO8xU> <http://semanticmusic.xyz/vocab/concept> "Sun" .
+<#05oK0zROR8GnZGyWMcO8xU> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#05oK0zROR8GnZGyWMcO8xU> <http://semanticmusic.xyz/vocab/concept> "2007 singles" .
+<#05oK0zROR8GnZGyWMcO8xU> <http://semanticmusic.xyz/vocab/concept> "Irish Singles Chart number-one singles" .
+<#05oK0zROR8GnZGyWMcO8xU> <http://semanticmusic.xyz/vocab/album> "Neon Bible" .
+<#05oK0zROR8GnZGyWMcO8xU> <http://semanticmusic.xyz/vocab/concept> "2008 singles" .
+<#05oK0zROR8GnZGyWMcO8xU> <http://semanticmusic.xyz/vocab/concept> "2006 albums" .
+<#05oK0zROR8GnZGyWMcO8xU> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#05oK0zROR8GnZGyWMcO8xU> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#03h4TbEghDuv08z0z0KJyt> <http://semanticmusic.xyz/vocab/title> "Positive Tension" .
+<#03h4TbEghDuv08z0z0KJyt> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#03h4TbEghDuv08z0z0KJyt> <http://semanticmusic.xyz/vocab/album> "Silent Alarm" .
+<#03h4TbEghDuv08z0z0KJyt> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/7ec1bd06d971b461dc8ffc0830a342e05394237f" .
+<#03h4TbEghDuv08z0z0KJyt> <http://semanticmusic.xyz/vocab/duration> "235440" .
+<#03h4TbEghDuv08z0z0KJyt> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#0FrDZi1aNvVji9qDiALiJa> <http://semanticmusic.xyz/vocab/concept> "Hey Hey" .
+<#0FrDZi1aNvVji9qDiALiJa> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#0FrDZi1aNvVji9qDiALiJa> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#0FrDZi1aNvVji9qDiALiJa> <http://semanticmusic.xyz/vocab/concept> "Sleep" .
+<#0FrDZi1aNvVji9qDiALiJa> <http://semanticmusic.xyz/vocab/album> "Silent Alarm" .
+<#0FrDZi1aNvVji9qDiALiJa> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#0FrDZi1aNvVji9qDiALiJa> <http://semanticmusic.xyz/vocab/duration> "209346" .
+<#0FrDZi1aNvVji9qDiALiJa> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/7ec1bd06d971b461dc8ffc0830a342e05394237f" .
+<#0FrDZi1aNvVji9qDiALiJa> <http://semanticmusic.xyz/vocab/title> "She’s Hearing Voices" .
+<#0FrDZi1aNvVji9qDiALiJa> <http://semanticmusic.xyz/vocab/emotion> "fear" .
+<#0FrDZi1aNvVji9qDiALiJa> <http://semanticmusic.xyz/vocab/concept> "Redpill" .
+<#07lycf5UUpC0l8JC6pNk0Q> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#07lycf5UUpC0l8JC6pNk0Q> <http://semanticmusic.xyz/vocab/duration> "240869" .
+<#07lycf5UUpC0l8JC6pNk0Q> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/daec0819ff7afa426a8ea0d0c117b68132fb7485" .
+<#07lycf5UUpC0l8JC6pNk0Q> <http://semanticmusic.xyz/vocab/album> "Hymns (Deluxe Edition)" .
+<#07lycf5UUpC0l8JC6pNk0Q> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#07lycf5UUpC0l8JC6pNk0Q> <http://semanticmusic.xyz/vocab/title> "Eden" .
+<#03m4KZfhbjySf6o0uF1XIw> <http://semanticmusic.xyz/vocab/title> "Misery" .
+<#03m4KZfhbjySf6o0uF1XIw> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#03m4KZfhbjySf6o0uF1XIw> <http://semanticmusic.xyz/vocab/album> "2011 Grammy Nominees" .
+<#03m4KZfhbjySf6o0uF1XIw> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/3c3f6664d7a10a9957de8e92676b3300b64ace9d" .
+<#03m4KZfhbjySf6o0uF1XIw> <http://semanticmusic.xyz/vocab/duration> "213213" .
+<#03m4KZfhbjySf6o0uF1XIw> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#03m4KZfhbjySf6o0uF1XIw> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#03m4KZfhbjySf6o0uF1XIw> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#0EV0PJvN0NAi2iEbaahWLY> <http://semanticmusic.xyz/vocab/genre> "garage rock" .
+<#0EV0PJvN0NAi2iEbaahWLY> <http://semanticmusic.xyz/vocab/duration> "217840" .
+<#0EV0PJvN0NAi2iEbaahWLY> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/9f1ec9d0c8ad8b09f7d5244d0dcafb7dcf4b7c09" .
+<#0EV0PJvN0NAi2iEbaahWLY> <http://semanticmusic.xyz/vocab/album> "The Black and White album" .
+<#0EV0PJvN0NAi2iEbaahWLY> <http://semanticmusic.xyz/vocab/artist> "The Hives" .
+<#0EV0PJvN0NAi2iEbaahWLY> <http://semanticmusic.xyz/vocab/title> "Bigger Hole To Fill" .
+<#0FOKeUyMknUaWEKMIhQqQz> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#0FOKeUyMknUaWEKMIhQqQz> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#0FOKeUyMknUaWEKMIhQqQz> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#0FOKeUyMknUaWEKMIhQqQz> <http://semanticmusic.xyz/vocab/duration> "223706" .
+<#0FOKeUyMknUaWEKMIhQqQz> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/e8e85c96f1f7bd16d9999b6e7f8a0270c6ba5e09" .
+<#0FOKeUyMknUaWEKMIhQqQz> <http://semanticmusic.xyz/vocab/album> "Juno Awards 2011" .
+<#0FOKeUyMknUaWEKMIhQqQz> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#0FOKeUyMknUaWEKMIhQqQz> <http://semanticmusic.xyz/vocab/title> "Take Back The Fear" .
+<#086fYDutCxMnyaOdFAabXO> <http://semanticmusic.xyz/vocab/genre> "garage rock" .
+<#086fYDutCxMnyaOdFAabXO> <http://semanticmusic.xyz/vocab/duration> "151000" .
+<#086fYDutCxMnyaOdFAabXO> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/28b0b6ec49760af1d6be1e3474543a8dd3d522d8" .
+<#086fYDutCxMnyaOdFAabXO> <http://semanticmusic.xyz/vocab/album> "Hate To Say I Told You So" .
+<#086fYDutCxMnyaOdFAabXO> <http://semanticmusic.xyz/vocab/artist> "The Hives" .
+<#086fYDutCxMnyaOdFAabXO> <http://semanticmusic.xyz/vocab/title> "The Hives Are Law, You Are Crime" .
+<#06GlpLlhD7cND9L6BWW3yV> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#06GlpLlhD7cND9L6BWW3yV> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#06GlpLlhD7cND9L6BWW3yV> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#06GlpLlhD7cND9L6BWW3yV> <http://semanticmusic.xyz/vocab/duration> "402809" .
+<#06GlpLlhD7cND9L6BWW3yV> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/92d2fc3d4f5772936a4e1c714495dc16d6c244fc" .
+<#06GlpLlhD7cND9L6BWW3yV> <http://semanticmusic.xyz/vocab/album> "Reflektor" .
+<#06GlpLlhD7cND9L6BWW3yV> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#06GlpLlhD7cND9L6BWW3yV> <http://semanticmusic.xyz/vocab/title> "It’s Never Over (Hey Orpheus)" .
+<#0dwyYEFOjrX1Do95i29Mqt> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#0dwyYEFOjrX1Do95i29Mqt> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#0dwyYEFOjrX1Do95i29Mqt> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#0dwyYEFOjrX1Do95i29Mqt> <http://semanticmusic.xyz/vocab/duration> "238413" .
+<#0dwyYEFOjrX1Do95i29Mqt> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/a85952dbb9337890e1c7c4f1652f2a7e14315532" .
+<#0dwyYEFOjrX1Do95i29Mqt> <http://semanticmusic.xyz/vocab/album> "The BRIT Awards 2014" .
+<#0dwyYEFOjrX1Do95i29Mqt> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#0dwyYEFOjrX1Do95i29Mqt> <http://semanticmusic.xyz/vocab/title> "Lost & Not Found" .
+<#02pNWWrFdIQIUaVyCBOGpp> <http://semanticmusic.xyz/vocab/title> "Underwear" .
+<#02pNWWrFdIQIUaVyCBOGpp> <http://semanticmusic.xyz/vocab/artist> "Royal Republic" .
+<#02pNWWrFdIQIUaVyCBOGpp> <http://semanticmusic.xyz/vocab/album> "Underwear" .
+<#02pNWWrFdIQIUaVyCBOGpp> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/5b3320dbda902d03c7f91b3d76abf1d595218cc1" .
+<#02pNWWrFdIQIUaVyCBOGpp> <http://semanticmusic.xyz/vocab/duration> "120800" .
+<#02pNWWrFdIQIUaVyCBOGpp> <http://semanticmusic.xyz/vocab/genre> "swedish alternative rock" .
+<#0bjVv7t6HlqMf5bfnmLEgC> <http://semanticmusic.xyz/vocab/title> "The Good News" .
+<#0bjVv7t6HlqMf5bfnmLEgC> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#0bjVv7t6HlqMf5bfnmLEgC> <http://semanticmusic.xyz/vocab/album> "HYMNS (Deluxe Edition)" .
+<#0bjVv7t6HlqMf5bfnmLEgC> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/c30d9628ab52652e259e54d79ea19aafa9830fe0" .
+<#0bjVv7t6HlqMf5bfnmLEgC> <http://semanticmusic.xyz/vocab/duration> "229315" .
+<#0bjVv7t6HlqMf5bfnmLEgC> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#0buFQXx5D7S2FOueWYRyIS> <http://semanticmusic.xyz/vocab/title> "Underwear" .
+<#0buFQXx5D7S2FOueWYRyIS> <http://semanticmusic.xyz/vocab/artist> "Royal Republic" .
+<#0buFQXx5D7S2FOueWYRyIS> <http://semanticmusic.xyz/vocab/album> "Supernova Rock Volume 1" .
+<#0buFQXx5D7S2FOueWYRyIS> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/84f73b9b755c79d1fb83fe50036aeae4eaf5c181" .
+<#0buFQXx5D7S2FOueWYRyIS> <http://semanticmusic.xyz/vocab/duration> "119586" .
+<#0buFQXx5D7S2FOueWYRyIS> <http://semanticmusic.xyz/vocab/genre> "swedish alternative rock" .
+<#02y7gHvn4Bia6FX4RjLFX9> <http://semanticmusic.xyz/vocab/title> "Try It Again" .
+<#02y7gHvn4Bia6FX4RjLFX9> <http://semanticmusic.xyz/vocab/artist> "The Hives" .
+<#02y7gHvn4Bia6FX4RjLFX9> <http://semanticmusic.xyz/vocab/album> "The Black and White album" .
+<#02y7gHvn4Bia6FX4RjLFX9> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/9f1ec9d0c8ad8b09f7d5244d0dcafb7dcf4b7c09" .
+<#02y7gHvn4Bia6FX4RjLFX9> <http://semanticmusic.xyz/vocab/duration> "209906" .
+<#02y7gHvn4Bia6FX4RjLFX9> <http://semanticmusic.xyz/vocab/genre> "garage rock" .
+<#0COUYes5t1akdjSLoelywk> <http://semanticmusic.xyz/vocab/title> "A Knife In The Ocean" .
+<#0COUYes5t1akdjSLoelywk> <http://semanticmusic.xyz/vocab/artist> "Foals" .
+<#0COUYes5t1akdjSLoelywk> <http://semanticmusic.xyz/vocab/album> "A Knife In The Ocean" .
+<#0COUYes5t1akdjSLoelywk> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/46b1c2cdb9d006c9d45329c7b33b8a4cb9497f45" .
+<#0COUYes5t1akdjSLoelywk> <http://semanticmusic.xyz/vocab/duration> "412826" .
+<#0COUYes5t1akdjSLoelywk> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#0A5tBSQuXBlYcdtwNEszbV> <http://semanticmusic.xyz/vocab/genre> "garage rock" .
+<#0A5tBSQuXBlYcdtwNEszbV> <http://semanticmusic.xyz/vocab/duration> "202760" .
+<#0A5tBSQuXBlYcdtwNEszbV> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/9f1ec9d0c8ad8b09f7d5244d0dcafb7dcf4b7c09" .
+<#0A5tBSQuXBlYcdtwNEszbV> <http://semanticmusic.xyz/vocab/album> "The Black and White album" .
+<#0A5tBSQuXBlYcdtwNEszbV> <http://semanticmusic.xyz/vocab/artist> "The Hives" .
+<#0A5tBSQuXBlYcdtwNEszbV> <http://semanticmusic.xyz/vocab/title> "Hey Little World" .
+<#02ZCBYkTqdepEI82J4ZFik> <http://semanticmusic.xyz/vocab/title> "Valis (Other Me)" .
+<#02ZCBYkTqdepEI82J4ZFik> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#02ZCBYkTqdepEI82J4ZFik> <http://semanticmusic.xyz/vocab/album> "Four" .
+<#02ZCBYkTqdepEI82J4ZFik> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/356060f6c6993d54030c7a5dd8b9bf74ac11ee1e" .
+<#02ZCBYkTqdepEI82J4ZFik> <http://semanticmusic.xyz/vocab/duration> "200319" .
+<#02ZCBYkTqdepEI82J4ZFik> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#0etOZ6dINxK0l4EtBJfRV6> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#0etOZ6dINxK0l4EtBJfRV6> <http://semanticmusic.xyz/vocab/duration> "331333" .
+<#0etOZ6dINxK0l4EtBJfRV6> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/751cb927930d1ffbaaabfc257d1636967573a8bf" .
+<#0etOZ6dINxK0l4EtBJfRV6> <http://semanticmusic.xyz/vocab/album> "A Weekend In The City" .
+<#0etOZ6dINxK0l4EtBJfRV6> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#0etOZ6dINxK0l4EtBJfRV6> <http://semanticmusic.xyz/vocab/title> "Uniform" .
+<#0fOOmc7qoKypIIPI1uaetw> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#0fOOmc7qoKypIIPI1uaetw> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#0fOOmc7qoKypIIPI1uaetw> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#0fOOmc7qoKypIIPI1uaetw> <http://semanticmusic.xyz/vocab/duration> "310280" .
+<#0fOOmc7qoKypIIPI1uaetw> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/fa0ab5d1f7eabb89dc688a83ab008ce2fe03bcde" .
+<#0fOOmc7qoKypIIPI1uaetw> <http://semanticmusic.xyz/vocab/album> "Neon Bible" .
+<#0fOOmc7qoKypIIPI1uaetw> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#0fOOmc7qoKypIIPI1uaetw> <http://semanticmusic.xyz/vocab/title> "(Antichrist Television Blues)" .
+<#04HS6K21lqvDA6WXQHrK7N> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#04HS6K21lqvDA6WXQHrK7N> <http://semanticmusic.xyz/vocab/artist> "Foals" .
+<#04HS6K21lqvDA6WXQHrK7N> <http://semanticmusic.xyz/vocab/title> "Olympic Airways - Diskjokke remix" .
+<#04HS6K21lqvDA6WXQHrK7N> <http://semanticmusic.xyz/vocab/emotion> "fear" .
+<#04HS6K21lqvDA6WXQHrK7N> <http://semanticmusic.xyz/vocab/emotion> "sadness" .
+<#04HS6K21lqvDA6WXQHrK7N> <http://semanticmusic.xyz/vocab/duration> "444613" .
+<#04HS6K21lqvDA6WXQHrK7N> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#04HS6K21lqvDA6WXQHrK7N> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/fe8612bef6153394796813ea334c5e8211f379c5" .
+<#04HS6K21lqvDA6WXQHrK7N> <http://semanticmusic.xyz/vocab/album> "Olympic Airways" .
+<#04HS6K21lqvDA6WXQHrK7N> <http://semanticmusic.xyz/vocab/concept> "Sunday" .
+<#04HS6K21lqvDA6WXQHrK7N> <http://semanticmusic.xyz/vocab/concept> "2005 singles" .
+<#0F8CHnQAtEVnPQvBboGdal> <http://semanticmusic.xyz/vocab/concept> "Female" .
+<#0F8CHnQAtEVnPQvBboGdal> <http://semanticmusic.xyz/vocab/concept> "Boy" .
+<#0F8CHnQAtEVnPQvBboGdal> <http://semanticmusic.xyz/vocab/artist> "The Hives" .
+<#0F8CHnQAtEVnPQvBboGdal> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/e1d3bdf271cab5aef7ba263998cb04060b5949c0" .
+<#0F8CHnQAtEVnPQvBboGdal> <http://semanticmusic.xyz/vocab/concept> "Debut albums" .
+<#0F8CHnQAtEVnPQvBboGdal> <http://semanticmusic.xyz/vocab/concept> "American films" .
+<#0F8CHnQAtEVnPQvBboGdal> <http://semanticmusic.xyz/vocab/concept> "English-language films" .
+<#0F8CHnQAtEVnPQvBboGdal> <http://semanticmusic.xyz/vocab/album> "Veni Vidi Vicious" .
+<#0F8CHnQAtEVnPQvBboGdal> <http://semanticmusic.xyz/vocab/genre> "garage rock" .
+<#0F8CHnQAtEVnPQvBboGdal> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#0F8CHnQAtEVnPQvBboGdal> <http://semanticmusic.xyz/vocab/duration> "192293" .
+<#0F8CHnQAtEVnPQvBboGdal> <http://semanticmusic.xyz/vocab/concept> "2007 singles" .
+<#0F8CHnQAtEVnPQvBboGdal> <http://semanticmusic.xyz/vocab/title> "Find Another Girl" .
+<#09Gz8gQkhASON9NainPLYF> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#09Gz8gQkhASON9NainPLYF> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#09Gz8gQkhASON9NainPLYF> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#09Gz8gQkhASON9NainPLYF> <http://semanticmusic.xyz/vocab/duration> "144866" .
+<#09Gz8gQkhASON9NainPLYF> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/a9be85750f334f847af0e7ca87887ca5ccfefd3a" .
+<#09Gz8gQkhASON9NainPLYF> <http://semanticmusic.xyz/vocab/album> "Radioactive" .
+<#09Gz8gQkhASON9NainPLYF> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#09Gz8gQkhASON9NainPLYF> <http://semanticmusic.xyz/vocab/title> "Lightning Bolt" .
+<#035hW8WzmaYJY4NtpMgw1e> <http://semanticmusic.xyz/vocab/title> "Porno" .
+<#035hW8WzmaYJY4NtpMgw1e> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#035hW8WzmaYJY4NtpMgw1e> <http://semanticmusic.xyz/vocab/album> "Reflektor (Deluxe)" .
+<#035hW8WzmaYJY4NtpMgw1e> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/3801cba1662ecf9a9be8b502314571e0c7fcb48a" .
+<#035hW8WzmaYJY4NtpMgw1e> <http://semanticmusic.xyz/vocab/duration> "362853" .
+<#035hW8WzmaYJY4NtpMgw1e> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#035hW8WzmaYJY4NtpMgw1e> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#035hW8WzmaYJY4NtpMgw1e> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#0bIn23Kf74CduYn3u19ATT> <http://semanticmusic.xyz/vocab/title> "The Suburbs (Continued)" .
+<#0bIn23Kf74CduYn3u19ATT> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#0bIn23Kf74CduYn3u19ATT> <http://semanticmusic.xyz/vocab/album> "The Suburbs" .
+<#0bIn23Kf74CduYn3u19ATT> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/c2c627db9efd55b03357567a54b0f39d3c3136da" .
+<#0bIn23Kf74CduYn3u19ATT> <http://semanticmusic.xyz/vocab/duration> "87640" .
+<#0bIn23Kf74CduYn3u19ATT> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#0bIn23Kf74CduYn3u19ATT> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#0bIn23Kf74CduYn3u19ATT> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#0fd4EoF4CH3AB8bEhU1Aqy> <http://semanticmusic.xyz/vocab/genre> "swedish alternative rock" .
+<#0fd4EoF4CH3AB8bEhU1Aqy> <http://semanticmusic.xyz/vocab/duration> "181163" .
+<#0fd4EoF4CH3AB8bEhU1Aqy> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/1693a4ac6793a93825358391cc5ec76a2301c055" .
+<#0fd4EoF4CH3AB8bEhU1Aqy> <http://semanticmusic.xyz/vocab/album> "Save The Nation" .
+<#0fd4EoF4CH3AB8bEhU1Aqy> <http://semanticmusic.xyz/vocab/artist> "Royal Republic" .
+<#0fd4EoF4CH3AB8bEhU1Aqy> <http://semanticmusic.xyz/vocab/title> "Save the Nation" .
+<#0DmFVFzn31MJSVd6xVqtmz> <http://semanticmusic.xyz/vocab/title> "Kreuzberg" .
+<#0DmFVFzn31MJSVd6xVqtmz> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#0DmFVFzn31MJSVd6xVqtmz> <http://semanticmusic.xyz/vocab/album> "A Weekend In The City" .
+<#0DmFVFzn31MJSVd6xVqtmz> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/9a284c1f7837402358bbe78c888faf87d713cd96" .
+<#0DmFVFzn31MJSVd6xVqtmz> <http://semanticmusic.xyz/vocab/duration> "327333" .
+<#0DmFVFzn31MJSVd6xVqtmz> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#08ZDHMmjsZQjYtgEA3qDfG> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#08ZDHMmjsZQjYtgEA3qDfG> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#08ZDHMmjsZQjYtgEA3qDfG> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#08ZDHMmjsZQjYtgEA3qDfG> <http://semanticmusic.xyz/vocab/duration> "172186" .
+<#08ZDHMmjsZQjYtgEA3qDfG> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/3801cba1662ecf9a9be8b502314571e0c7fcb48a" .
+<#08ZDHMmjsZQjYtgEA3qDfG> <http://semanticmusic.xyz/vocab/album> "Reflektor (Deluxe)" .
+<#08ZDHMmjsZQjYtgEA3qDfG> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#08ZDHMmjsZQjYtgEA3qDfG> <http://semanticmusic.xyz/vocab/title> "Here Comes The Night Time II" .
+<#0du1mJnyBzKOthk7mLaxYD> <http://semanticmusic.xyz/vocab/concept> "Blood" .
+<#0du1mJnyBzKOthk7mLaxYD> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#0du1mJnyBzKOthk7mLaxYD> <http://semanticmusic.xyz/vocab/duration> "263760" .
+<#0du1mJnyBzKOthk7mLaxYD> <http://semanticmusic.xyz/vocab/emotion> "disgust" .
+<#0du1mJnyBzKOthk7mLaxYD> <http://semanticmusic.xyz/vocab/title> "I Still Remember" .
+<#0du1mJnyBzKOthk7mLaxYD> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#0du1mJnyBzKOthk7mLaxYD> <http://semanticmusic.xyz/vocab/emotion> "fear" .
+<#0du1mJnyBzKOthk7mLaxYD> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/9a284c1f7837402358bbe78c888faf87d713cd96" .
+<#0du1mJnyBzKOthk7mLaxYD> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#0du1mJnyBzKOthk7mLaxYD> <http://semanticmusic.xyz/vocab/album> "A Weekend In The City" .
+<#0EW2HBGRHcbk8qZ9hc7KME> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#0EW2HBGRHcbk8qZ9hc7KME> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#0EW2HBGRHcbk8qZ9hc7KME> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#0EW2HBGRHcbk8qZ9hc7KME> <http://semanticmusic.xyz/vocab/duration> "87640" .
+<#0EW2HBGRHcbk8qZ9hc7KME> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/3e47163b7a5e91412247643da42180d5ba3e8367" .
+<#0EW2HBGRHcbk8qZ9hc7KME> <http://semanticmusic.xyz/vocab/album> "The Suburbs" .
+<#0EW2HBGRHcbk8qZ9hc7KME> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#0EW2HBGRHcbk8qZ9hc7KME> <http://semanticmusic.xyz/vocab/title> "The Suburbs (Continued)" .
+<#0AX7o5zBGwBDhLNc2ZKdxU> <http://semanticmusic.xyz/vocab/title> "I Don't Wanna Go Out" .
+<#0AX7o5zBGwBDhLNc2ZKdxU> <http://semanticmusic.xyz/vocab/artist> "Royal Republic" .
+<#0AX7o5zBGwBDhLNc2ZKdxU> <http://semanticmusic.xyz/vocab/album> "Save The Nation" .
+<#0AX7o5zBGwBDhLNc2ZKdxU> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/1693a4ac6793a93825358391cc5ec76a2301c055" .
+<#0AX7o5zBGwBDhLNc2ZKdxU> <http://semanticmusic.xyz/vocab/duration> "132778" .
+<#0AX7o5zBGwBDhLNc2ZKdxU> <http://semanticmusic.xyz/vocab/genre> "swedish alternative rock" .
+<#0DbFFINLqx7BXK0XJMW39o> <http://semanticmusic.xyz/vocab/title> "Nasty Secretary" .
+<#0DbFFINLqx7BXK0XJMW39o> <http://semanticmusic.xyz/vocab/artist> "The Hives" .
+<#0DbFFINLqx7BXK0XJMW39o> <http://semanticmusic.xyz/vocab/album> "Tarred And Feathered" .
+<#0DbFFINLqx7BXK0XJMW39o> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/9229bde71766565344b3189ecdb9ef862517a47a" .
+<#0DbFFINLqx7BXK0XJMW39o> <http://semanticmusic.xyz/vocab/duration> "124426" .
+<#0DbFFINLqx7BXK0XJMW39o> <http://semanticmusic.xyz/vocab/genre> "garage rock" .
+<#0DbFFINLqx7BXK0XJMW39o> <http://semanticmusic.xyz/vocab/concept> "Debut albums" .
+<#0DbFFINLqx7BXK0XJMW39o> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#0DbFFINLqx7BXK0XJMW39o> <http://semanticmusic.xyz/vocab/emotion> "disgust" .
+<#0295Ig3fmKftSwYgnbniis> <http://semanticmusic.xyz/vocab/title> "Tommy-Gun" .
+<#0295Ig3fmKftSwYgnbniis> <http://semanticmusic.xyz/vocab/artist> "Royal Republic" .
+<#0295Ig3fmKftSwYgnbniis> <http://semanticmusic.xyz/vocab/album> "We Are the Royal" .
+<#0295Ig3fmKftSwYgnbniis> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/975edf3c8b7a4c174be8331bef8ed259b2a2063d" .
+<#0295Ig3fmKftSwYgnbniis> <http://semanticmusic.xyz/vocab/duration> "153280" .
+<#0295Ig3fmKftSwYgnbniis> <http://semanticmusic.xyz/vocab/genre> "swedish alternative rock" .
+<#08VxKWeGWcoavtdWNP1inC> <http://semanticmusic.xyz/vocab/concept> "Wind" .
+<#08VxKWeGWcoavtdWNP1inC> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#08VxKWeGWcoavtdWNP1inC> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/944d00a9f848a11a70e15d2398eef74371fb5c43" .
+<#08VxKWeGWcoavtdWNP1inC> <http://semanticmusic.xyz/vocab/album> "Antidotes" .
+<#08VxKWeGWcoavtdWNP1inC> <http://semanticmusic.xyz/vocab/artist> "Foals" .
+<#08VxKWeGWcoavtdWNP1inC> <http://semanticmusic.xyz/vocab/concept> "Artichoke" .
+<#08VxKWeGWcoavtdWNP1inC> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#08VxKWeGWcoavtdWNP1inC> <http://semanticmusic.xyz/vocab/duration> "182093" .
+<#08VxKWeGWcoavtdWNP1inC> <http://semanticmusic.xyz/vocab/concept> "Weather" .
+<#08VxKWeGWcoavtdWNP1inC> <http://semanticmusic.xyz/vocab/emotion> "fear" .
+<#08VxKWeGWcoavtdWNP1inC> <http://semanticmusic.xyz/vocab/title> "Dearth" .
+<#08VxKWeGWcoavtdWNP1inC> <http://semanticmusic.xyz/vocab/concept> "Debut albums" .
+<#0BUb7ATn3EbVXFYBYBUqul> <http://semanticmusic.xyz/vocab/title> "Biko - Mogwai Remix" .
+<#0BUb7ATn3EbVXFYBYBUqul> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#0BUb7ATn3EbVXFYBYBUqul> <http://semanticmusic.xyz/vocab/album> "Intimacy - Remixed" .
+<#0BUb7ATn3EbVXFYBYBUqul> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/6847dc9dafa247df59bdc981c56483ac85681e54" .
+<#0BUb7ATn3EbVXFYBYBUqul> <http://semanticmusic.xyz/vocab/duration> "262853" .
+<#0BUb7ATn3EbVXFYBYBUqul> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#0BUb7ATn3EbVXFYBYBUqul> <http://semanticmusic.xyz/vocab/concept> "Styx" .
+<#0BUb7ATn3EbVXFYBYBUqul> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#0BUb7ATn3EbVXFYBYBUqul> <http://semanticmusic.xyz/vocab/emotion> "fear" .
+<#0bYhoTwp8e81ViX9p1YLTI> <http://semanticmusic.xyz/vocab/title> "Luno" .
+<#0bYhoTwp8e81ViX9p1YLTI> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#0bYhoTwp8e81ViX9p1YLTI> <http://semanticmusic.xyz/vocab/album> "Silent Alarm" .
+<#0bYhoTwp8e81ViX9p1YLTI> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/a5f5571d9909706d4e12d5626001a6e8630983d4" .
+<#0bYhoTwp8e81ViX9p1YLTI> <http://semanticmusic.xyz/vocab/duration> "236133" .
+<#0bYhoTwp8e81ViX9p1YLTI> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#02YNRmgwYWSREcyRuIlrlw> <http://semanticmusic.xyz/vocab/title> "Good To Be Bad" .
+<#02YNRmgwYWSREcyRuIlrlw> <http://semanticmusic.xyz/vocab/artist> "Royal Republic" .
+<#02YNRmgwYWSREcyRuIlrlw> <http://semanticmusic.xyz/vocab/album> "We Are The Royal" .
+<#02YNRmgwYWSREcyRuIlrlw> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/757e149a0fb3c0fe2d369fae8c82968251407889" .
+<#02YNRmgwYWSREcyRuIlrlw> <http://semanticmusic.xyz/vocab/duration> "166306" .
+<#02YNRmgwYWSREcyRuIlrlw> <http://semanticmusic.xyz/vocab/genre> "swedish alternative rock" .
+<#05nzbiEUAkGHY1zGOloDFi> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#05nzbiEUAkGHY1zGOloDFi> <http://semanticmusic.xyz/vocab/duration> "259928" .
+<#05nzbiEUAkGHY1zGOloDFi> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/fe8612bef6153394796813ea334c5e8211f379c5" .
+<#05nzbiEUAkGHY1zGOloDFi> <http://semanticmusic.xyz/vocab/album> "Olympic Airways EP (D2C Only)" .
+<#05nzbiEUAkGHY1zGOloDFi> <http://semanticmusic.xyz/vocab/artist> "Foals" .
+<#05nzbiEUAkGHY1zGOloDFi> <http://semanticmusic.xyz/vocab/title> "Olympic Airways - single version" .
+<#00uRvmL6zT8XCahhxTvM3o> <http://semanticmusic.xyz/vocab/title> "Flashbulb Eyes" .
+<#00uRvmL6zT8XCahhxTvM3o> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#00uRvmL6zT8XCahhxTvM3o> <http://semanticmusic.xyz/vocab/album> "Reflektor" .
+<#00uRvmL6zT8XCahhxTvM3o> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/3bf0dca2bd4ed133b7d99b3b09b639d1f6a0c71d" .
+<#00uRvmL6zT8XCahhxTvM3o> <http://semanticmusic.xyz/vocab/duration> "162200" .
+<#00uRvmL6zT8XCahhxTvM3o> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#00uRvmL6zT8XCahhxTvM3o> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#00uRvmL6zT8XCahhxTvM3o> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#03RslhNzwSJg038K7rYUSK> <http://semanticmusic.xyz/vocab/title> "Well, Well, Well" .
+<#03RslhNzwSJg038K7rYUSK> <http://semanticmusic.xyz/vocab/artist> "The Hives" .
+<#03RslhNzwSJg038K7rYUSK> <http://semanticmusic.xyz/vocab/album> "Barely Legal" .
+<#03RslhNzwSJg038K7rYUSK> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/420123444e222932167cdeea61ee675adc3f4075" .
+<#03RslhNzwSJg038K7rYUSK> <http://semanticmusic.xyz/vocab/duration> "62183" .
+<#03RslhNzwSJg038K7rYUSK> <http://semanticmusic.xyz/vocab/genre> "garage rock" .
+<#040YNRWisvvHqy1hUW2Kxe> <http://semanticmusic.xyz/vocab/title> "(Antichrist Television Blues)" .
+<#040YNRWisvvHqy1hUW2Kxe> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#040YNRWisvvHqy1hUW2Kxe> <http://semanticmusic.xyz/vocab/album> "Neon Bible" .
+<#040YNRWisvvHqy1hUW2Kxe> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/c0ca618d41c87588c3035a5964c1a81f354e55fb" .
+<#040YNRWisvvHqy1hUW2Kxe> <http://semanticmusic.xyz/vocab/duration> "310280" .
+<#040YNRWisvvHqy1hUW2Kxe> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#040YNRWisvvHqy1hUW2Kxe> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#040YNRWisvvHqy1hUW2Kxe> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#0FqvjekUXtCIJeLT23n4IW> <http://semanticmusic.xyz/vocab/genre> "garage rock" .
+<#0FqvjekUXtCIJeLT23n4IW> <http://semanticmusic.xyz/vocab/duration> "185840" .
+<#0FqvjekUXtCIJeLT23n4IW> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/287ef9028fa230fe21a747f7eff753c53241a64d" .
+<#0FqvjekUXtCIJeLT23n4IW> <http://semanticmusic.xyz/vocab/album> "A Little More For Little You" .
+<#0FqvjekUXtCIJeLT23n4IW> <http://semanticmusic.xyz/vocab/artist> "The Hives" .
+<#0FqvjekUXtCIJeLT23n4IW> <http://semanticmusic.xyz/vocab/title> "A Little More For Little You - Remix" .
+<#0cB57uMwtUOUU6JPvN4qy4> <http://semanticmusic.xyz/vocab/album> "Veni Vidi Vicious" .
+<#0cB57uMwtUOUU6JPvN4qy4> <http://semanticmusic.xyz/vocab/duration> "111826" .
+<#0cB57uMwtUOUU6JPvN4qy4> <http://semanticmusic.xyz/vocab/artist> "The Hives" .
+<#0cB57uMwtUOUU6JPvN4qy4> <http://semanticmusic.xyz/vocab/concept> "2006 singles" .
+<#0cB57uMwtUOUU6JPvN4qy4> <http://semanticmusic.xyz/vocab/title> "A Get Together To Tear It Apart" .
+<#0cB57uMwtUOUU6JPvN4qy4> <http://semanticmusic.xyz/vocab/genre> "garage rock" .
+<#0cB57uMwtUOUU6JPvN4qy4> <http://semanticmusic.xyz/vocab/concept> "START I" .
+<#0cB57uMwtUOUU6JPvN4qy4> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#0cB57uMwtUOUU6JPvN4qy4> <http://semanticmusic.xyz/vocab/concept> "English-language films" .
+<#0cB57uMwtUOUU6JPvN4qy4> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/e1d3bdf271cab5aef7ba263998cb04060b5949c0" .
+<#0bIu2265492ltllbDnXe7h> <http://semanticmusic.xyz/vocab/title> "I Still Remember" .
+<#0bIu2265492ltllbDnXe7h> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#0bIu2265492ltllbDnXe7h> <http://semanticmusic.xyz/vocab/album> "A Weekend In The City" .
+<#0bIu2265492ltllbDnXe7h> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/751cb927930d1ffbaaabfc257d1636967573a8bf" .
+<#0bIu2265492ltllbDnXe7h> <http://semanticmusic.xyz/vocab/duration> "261360" .
+<#0bIu2265492ltllbDnXe7h> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#08QB5Bo1KQE05ZBDepAe1m> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#08QB5Bo1KQE05ZBDepAe1m> <http://semanticmusic.xyz/vocab/duration> "187646" .
+<#08QB5Bo1KQE05ZBDepAe1m> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/d3fc9b0d83eab0f7bb7b6b2b6970d89d7737afce" .
+<#08QB5Bo1KQE05ZBDepAe1m> <http://semanticmusic.xyz/vocab/album> "FOUR (Deluxe Version)" .
+<#08QB5Bo1KQE05ZBDepAe1m> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#08QB5Bo1KQE05ZBDepAe1m> <http://semanticmusic.xyz/vocab/title> "Children Of The Future" .
+<#0aiDlPZLQ0eGIA83Q4WqvY> <http://semanticmusic.xyz/vocab/genre> "garage rock" .
+<#0aiDlPZLQ0eGIA83Q4WqvY> <http://semanticmusic.xyz/vocab/duration> "119053" .
+<#0aiDlPZLQ0eGIA83Q4WqvY> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/e1b63d2bcc569a6c2885ec7783bf81c6e9bef751" .
+<#0aiDlPZLQ0eGIA83Q4WqvY> <http://semanticmusic.xyz/vocab/album> "Tyrannosaurus Hives (Non EU Version)" .
+<#0aiDlPZLQ0eGIA83Q4WqvY> <http://semanticmusic.xyz/vocab/artist> "The Hives" .
+<#0aiDlPZLQ0eGIA83Q4WqvY> <http://semanticmusic.xyz/vocab/title> "Two-Timing Touch and Broken Bones" .
+<#08xnp91pV2aEehxzzEk5XT> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#08xnp91pV2aEehxzzEk5XT> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#08xnp91pV2aEehxzzEk5XT> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#08xnp91pV2aEehxzzEk5XT> <http://semanticmusic.xyz/vocab/duration> "208466" .
+<#08xnp91pV2aEehxzzEk5XT> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/a9be85750f334f847af0e7ca87887ca5ccfefd3a" .
+<#08xnp91pV2aEehxzzEk5XT> <http://semanticmusic.xyz/vocab/album> "Radioactive" .
+<#08xnp91pV2aEehxzzEk5XT> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#08xnp91pV2aEehxzzEk5XT> <http://semanticmusic.xyz/vocab/title> "Recovery" .
+<#0EuhALckmlG8flUY0rJgvQ> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/9ac4629df200735f23eb37beb4dc3ed29c1a163a" .
+<#0EuhALckmlG8flUY0rJgvQ> <http://semanticmusic.xyz/vocab/emotion> "fear" .
+<#0EuhALckmlG8flUY0rJgvQ> <http://semanticmusic.xyz/vocab/concept> "Song" .
+<#0EuhALckmlG8flUY0rJgvQ> <http://semanticmusic.xyz/vocab/concept> "2005 Ashes series" .
+<#0EuhALckmlG8flUY0rJgvQ> <http://semanticmusic.xyz/vocab/album> "The Suburbs" .
+<#0EuhALckmlG8flUY0rJgvQ> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#0EuhALckmlG8flUY0rJgvQ> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#0EuhALckmlG8flUY0rJgvQ> <http://semanticmusic.xyz/vocab/concept> "England cricket team" .
+<#0EuhALckmlG8flUY0rJgvQ> <http://semanticmusic.xyz/vocab/concept> "Wind" .
+<#0EuhALckmlG8flUY0rJgvQ> <http://semanticmusic.xyz/vocab/title> "Rococo" .
+<#0EuhALckmlG8flUY0rJgvQ> <http://semanticmusic.xyz/vocab/concept> "2005 singles" .
+<#0EuhALckmlG8flUY0rJgvQ> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#0EuhALckmlG8flUY0rJgvQ> <http://semanticmusic.xyz/vocab/duration> "236773" .
+<#0EuhALckmlG8flUY0rJgvQ> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#0EuhALckmlG8flUY0rJgvQ> <http://semanticmusic.xyz/vocab/concept> "The Ashes" .
+<#0EuhALckmlG8flUY0rJgvQ> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#03GIk20uwlLmxs5getH3Wb> <http://semanticmusic.xyz/vocab/title> "Won't Be Long" .
+<#03GIk20uwlLmxs5getH3Wb> <http://semanticmusic.xyz/vocab/artist> "The Hives" .
+<#03GIk20uwlLmxs5getH3Wb> <http://semanticmusic.xyz/vocab/album> "The Black and White album" .
+<#03GIk20uwlLmxs5getH3Wb> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/9f1ec9d0c8ad8b09f7d5244d0dcafb7dcf4b7c09" .
+<#03GIk20uwlLmxs5getH3Wb> <http://semanticmusic.xyz/vocab/duration> "226301" .
+<#03GIk20uwlLmxs5getH3Wb> <http://semanticmusic.xyz/vocab/genre> "garage rock" .
+<#0DVjeBSWn4iQ5sfosg6DQo> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#0DVjeBSWn4iQ5sfosg6DQo> <http://semanticmusic.xyz/vocab/duration> "251240" .
+<#0DVjeBSWn4iQ5sfosg6DQo> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/eda781af4eec248fc9f773e498e259c4818e73b7" .
+<#0DVjeBSWn4iQ5sfosg6DQo> <http://semanticmusic.xyz/vocab/album> "Four" .
+<#0DVjeBSWn4iQ5sfosg6DQo> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#0DVjeBSWn4iQ5sfosg6DQo> <http://semanticmusic.xyz/vocab/title> "Day Four" .
+<#0bP1PGCa1gDKGgLWzebDzA> <http://semanticmusic.xyz/vocab/title> "Sing" .
+<#0bP1PGCa1gDKGgLWzebDzA> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#0bP1PGCa1gDKGgLWzebDzA> <http://semanticmusic.xyz/vocab/album> "BRIT Awards Best Group" .
+<#0bP1PGCa1gDKGgLWzebDzA> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/7e2105242416809e14cf8419a746cb697fdf6063" .
+<#0bP1PGCa1gDKGgLWzebDzA> <http://semanticmusic.xyz/vocab/duration> "224866" .
+<#0bP1PGCa1gDKGgLWzebDzA> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#0bP1PGCa1gDKGgLWzebDzA> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#0bP1PGCa1gDKGgLWzebDzA> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#0G2CMbcJ5pd3BqQDSa99CU> <http://semanticmusic.xyz/vocab/genre> "indie rock" .
+<#0G2CMbcJ5pd3BqQDSa99CU> <http://semanticmusic.xyz/vocab/genre> "indie pop" .
+<#0G2CMbcJ5pd3BqQDSa99CU> <http://semanticmusic.xyz/vocab/genre> "chamber pop" .
+<#0G2CMbcJ5pd3BqQDSa99CU> <http://semanticmusic.xyz/vocab/duration> "227106" .
+<#0G2CMbcJ5pd3BqQDSa99CU> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/cc426b286c3367f73398db382c086e2c6f2d81a9" .
+<#0G2CMbcJ5pd3BqQDSa99CU> <http://semanticmusic.xyz/vocab/album> "Top Gear 'Full Throttle'" .
+<#0G2CMbcJ5pd3BqQDSa99CU> <http://semanticmusic.xyz/vocab/artist> "Arcade Fire" .
+<#0G2CMbcJ5pd3BqQDSa99CU> <http://semanticmusic.xyz/vocab/title> "Fire" .
+<#0g6viJNWO2SjariUSXdftQ> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#0g6viJNWO2SjariUSXdftQ> <http://semanticmusic.xyz/vocab/duration> "216213" .
+<#0g6viJNWO2SjariUSXdftQ> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/da3e7d535b056238840ef26299f5c4c04eb16d8f" .
+<#0g6viJNWO2SjariUSXdftQ> <http://semanticmusic.xyz/vocab/album> "Intimacy" .
+<#0g6viJNWO2SjariUSXdftQ> <http://semanticmusic.xyz/vocab/artist> "Bloc Party" .
+<#0g6viJNWO2SjariUSXdftQ> <http://semanticmusic.xyz/vocab/title> "Halo" .
+<#0bWloLlEu3Y1jEPAPZGrDN> <http://semanticmusic.xyz/vocab/title> "Outsmarted" .
+<#0bWloLlEu3Y1jEPAPZGrDN> <http://semanticmusic.xyz/vocab/artist> "The Hives" .
+<#0bWloLlEu3Y1jEPAPZGrDN> <http://semanticmusic.xyz/vocab/album> "Veni Vidi Vicious" .
+<#0bWloLlEu3Y1jEPAPZGrDN> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/e1d3bdf271cab5aef7ba263998cb04060b5949c0" .
+<#0bWloLlEu3Y1jEPAPZGrDN> <http://semanticmusic.xyz/vocab/duration> "141333" .
+<#0bWloLlEu3Y1jEPAPZGrDN> <http://semanticmusic.xyz/vocab/genre> "garage rock" .
+<#00yPBkkiojb1XYlDb5saIi> <http://semanticmusic.xyz/vocab/title> "If I Had A Cent" .
+<#00yPBkkiojb1XYlDb5saIi> <http://semanticmusic.xyz/vocab/artist> "The Hives" .
+<#00yPBkkiojb1XYlDb5saIi> <http://semanticmusic.xyz/vocab/album> "Lex Hives" .
+<#00yPBkkiojb1XYlDb5saIi> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/c7de2435156b9009980ba3c02cb042dd7c07fc1e" .
+<#00yPBkkiojb1XYlDb5saIi> <http://semanticmusic.xyz/vocab/duration> "121013" .
+<#00yPBkkiojb1XYlDb5saIi> <http://semanticmusic.xyz/vocab/genre> "garage rock" .
+<#08FGTSIe1HZ0WpdxD95ESy> <http://semanticmusic.xyz/vocab/emotion> "fear" .
+<#08FGTSIe1HZ0WpdxD95ESy> <http://semanticmusic.xyz/vocab/concept> "Hungary" .
+<#08FGTSIe1HZ0WpdxD95ESy> <http://semanticmusic.xyz/vocab/concept> "Jealousy" .
+<#08FGTSIe1HZ0WpdxD95ESy> <http://semanticmusic.xyz/vocab/concept> "Ticking time bomb scenario" .
+<#08FGTSIe1HZ0WpdxD95ESy> <http://semanticmusic.xyz/vocab/genre> "dance-punk" .
+<#08FGTSIe1HZ0WpdxD95ESy> <http://semanticmusic.xyz/vocab/concept> "Albatross" .
+<#08FGTSIe1HZ0WpdxD95ESy> <http://semanticmusic.xyz/vocab/title> "Albatross" .
+<#08FGTSIe1HZ0WpdxD95ESy> <http://semanticmusic.xyz/vocab/emotion> "anger" .
+<#08FGTSIe1HZ0WpdxD95ESy> <http://semanticmusic.xyz/vocab/album> "What Went Down" .
+<#08FGTSIe1HZ0WpdxD95ESy> <http://semanticmusic.xyz/vocab/artist> "Foals" .
+<#08FGTSIe1HZ0WpdxD95ESy> <http://semanticmusic.xyz/vocab/concept> "Red" .
+<#08FGTSIe1HZ0WpdxD95ESy> <http://semanticmusic.xyz/vocab/concept> "Envy" .
+<#08FGTSIe1HZ0WpdxD95ESy> <http://semanticmusic.xyz/vocab/image> "https://i.scdn.co/image/46b1c2cdb9d006c9d45329c7b33b8a4cb9497f45" .
+<#08FGTSIe1HZ0WpdxD95ESy> <http://semanticmusic.xyz/vocab/duration> "323573" .
