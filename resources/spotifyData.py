@@ -155,7 +155,7 @@ def addGenres(genreList):
         if(getGenreFromDB(genre) == None):
             addGenreToDB(genre)
 
-def addArtists(rootArtist, numberToAdd):
+def addArtists(rootArtist):
 
     artistStack = [rootArtist]
 
