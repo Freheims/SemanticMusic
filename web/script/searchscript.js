@@ -1,6 +1,9 @@
 const PREFIX = "PREFIX sm: <http://semanticmusic.xyz/vocab/>";
 var searchTypes = ["concept", "emotion", "genre", "title", "artist", "album"]; //The different things we can search for.
-
+var temprandomtablesongs = ["Senseless Massacre", "Routine", "Perfect Life", "Vacuity", "Eaten", "O Majestic Being, Hear My Call", "Blue Clouds", "Grandloves"];
+var temprandomtableartists = ["Gojira", "Hate Eternal", "Purity Ring", "Porcupine Tree", "Steven Wilson", "Bloodbath", "Rings of Saturn", "Tyler, the Creator", "Schoolboy Q"];
+var temprandomtableimages = ["http://i.imgur.com/NxPuN.jpg", "http://i.imgur.com/2qpcGjX.jpg", "http://i.imgur.com/56ZW0ud.jpg", "http://i.imgur.com/iAQeQsk.jpg", "http://i.imgur.com/o0NyKVg.jpg"];
+var temprandomtablealbums = ["The Way of All Flesh", "Infernus", "Cherry Bomb", "Phenotype", "Lingua Franca", "Gaia-Medea", "Ob(servant)", "This Is All Yours", "Juggernaut", "Pale Communion"];
 
 /**
  * Method which is called upon by the eventListener
@@ -96,6 +99,10 @@ function executeSearch(searchwords, searchType){
  *
  */
 function executeQuery(query) {
+    $.get("http://freheims.xyz/test.py", function(data){
+        console.log(data);
+	console.log("Halla");
+    });
     //TODO find out how to do this.
     
 }
@@ -128,9 +135,37 @@ function AppendChild() {
     table.tBodies[0].appendChild(newJob);
 }
 */
+
+
 function InsertRow() {
+    var randArt = Math.floor((Math.random() * temprandomtableartists.length));
+    var randSong = Math.floor((Math.random() * temprandomtablesongs.length));
+    var randImg = Math.floor((Math.random() * temprandomtableimages.length));
+    var randAlb = Math.floor((Math.random() * temprandomtablealbums.length));
+    var art = temprandomtableartists[randArt];
+    var sng = temprandomtablesongs[randSong];
+    var img = temprandomtableimages[randImg];
+    var alb = temprandomtablealbums[randAlb];
+    
+
+    console.log(randArt + " " + randSong + " " + randImg);
+    
     var table = document.getElementById("results");
-    var indexToInsert=table.rows.length;
+    var indexToInsert = table.rows.length;
     var newJob = table.tBodies[0].insertRow(indexToInsert);
-    newJob.innerHTML = "<td><img src=\"https://upload.wikimedia.org/wikipedia/en/1/16/Gojira_-_The_Way_of_All_Flesh_-_2008.jpg\"></td> <td><p>Song name</p></td> <td><p>Artist name</p></td> <td><p>Album name</p></td> <td><a href=\"https://play.spotify.com/track/5e0OSsSpWpQ2kS7Z9CGLDu\" target=\"_blank\">Link to song on spotify</a></td>";
+    newJob.innerHTML = "<td class=\"cover\"><img src=" + img + "></td> <td class=\"song\"><p>" + sng + "</td> <td class=\"artist\"><p>" + art + "</p></td>" + "<td class=\"album\"><p>" + alb + "</p></td>" + "<td class=\"link\"><a href=\"https://play.spotify.com/track/5e0OSsSpWpQ2kS7Z9CGLDu\" target=\"_blank\">Spotify</a></td>";
+    /* newJob.innerHTML = "<td><img src=\"https://upload.wikimedia.org/wikipedia/en/1/16/Gojira_-_The_Way_of_All_Flesh_-_2008.jpg\"></td> <td><p>Song name</p></td> <td><p>Artist name</p></td> <td><p>Album name</p></td> <td><a href=\"https://play.spotify.com/track/5e0OSsSpWpQ2kS7Z9CGLDu\" target=\"_blank\">Link to song on spotify</a></td>";
+*/
+}
+
+
+function httpGetAsync(theUrl, callback)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function() { 
+        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+            callback(xmlHttp.responseText);
+    }
+    xmlHttp.open("GET", theUrl, true); // true for asynchronous 
+    xmlHttp.send(null);
 }

@@ -5,6 +5,7 @@
         <meta name="robots" content="noindex, nofollow">
         <meta name="robots" content="noarchive"> 
         <meta charset="UTF-8">
+        <title>Artiste</title>
     </head>
     <body id="artists">
         <section id="lazybox">
@@ -12,15 +13,26 @@
                 <h1>Art ists</h1>
                 <nav>
                     <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li id="current"><a href="artists.html">ARTISTS</a></li>
-                        <li><a href="songs.html">SONGS</a></li>
+                        <a href="index.html"> <li>HOME</li></a>
+                        <a href="artists.html"><li id="current">ARTISTS</li></a>
+                        <a href="songs.html"><li>SONGS</li></a>
                     </ul>
                 </nav>
             </header>
             <main>
                 <p>There's probably gonna be an alphabetical list of all the songs in the database 
                 or something I don't know shut up</p>
+                <form id="bobo">
+                    Song name
+                    <input type="text" id="song">
+                    Artist name
+                    <input type="text" id="artist">
+                    Feelings you'd expect
+                    <input type="text" id="feels">
+                    Concepts in it
+                    <input type="text" id="concept">
+                </form>
+                <input type="submit" value="LET'S GO" onclick="search(document.getElementById('query'))"/>
             </main>
             <footer>
                 <p>Copyrights and disclaimers and licences and whatever</p>
