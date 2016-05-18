@@ -1,6 +1,5 @@
-html, body, #lazybox {
+html, body {
     height: 95.5%;
-    min-height: 95.5%; 
 }
 
 body {
@@ -91,6 +90,8 @@ header h1 {
     width: 50%;
     margin: 0 auto;
     padding: 10px 0;
+    height: auto;
+    min-height: 95.5%;
 }
 
 main {

@@ -122,5 +122,7 @@ function msToMS(ms) {
     var seconds = ms / 1000;
     var minutes = parseInt( seconds / 60 );
     seconds = seconds % 60;
+    minutes.toFixed(2);
+    seconds.toFixed(2);
     return(minutes + ":" + seconds);
 }
