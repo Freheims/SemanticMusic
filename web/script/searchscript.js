@@ -11,7 +11,6 @@ var queryResponse;
  */
 function search(forminput){
     var words = searchinput(forminput);
-    console.log("Words: " + words);
     performSearch(words);
 }
 
@@ -48,7 +47,6 @@ function performSearch(words){
  *
  */
 function populateHTML(response) {
-	console.log(response);
     var json = JSON.parse(response);
     var results = json.results.bindings;
     for(var i = 0; i < results.length; i++ ){
@@ -82,8 +80,6 @@ function buildQuery(searchwords){
         where
         ].join(" ");
         
-    console.log("Query: " + query);
-	console.log(typeof(query));
     return query;
 }
 
@@ -103,11 +99,10 @@ function insertRow(img, title, artist, album, duration, spotify) {
     var table = document.getElementById("results");
     var indexToInsert = table.rows.length;
     var newJob = table.tBodies[0].insertRow(indexToInsert);
-    newJob.innerHTML = "<td class=\"cover\"><img src=" + img + "></td> <td class=\"song\"><p>" + title + "</td> <td class=\"artist\"><p>" + artist + "</p></td>" + "<td class=\"album\"><p>" + album + "</p></td>" + "<td class=\"duration\"><p>" + duration + "</p></td>" + "<td class=\"link\"><a href=\"https://play.spotify.com/track/" + spotify + "\" target=\"_blank\">Spotify</a></td>";
+    newJob.innerHTML = "<td class=\"cover\"><img src=" + img + "></td> <td class=\"song\"><p>" + title + "</td> <td class=\"artist\"><p>" + artist + "</p></td>" + "<td class=\"album\"><p>" + album + "</p></td>" + "<td class=\"duration\"><p>" + msToMS(duration) + "</p></td>" + "<td class=\"link\"><a href=\"https://play.spotify.com/track/" + spotify + "\" target=\"_blank\">Spotify</a></td>";
 }
 
 function executeQuery(sparql){
-	console.log("Shhiet");
     var xmlHttp = new XMLHttpRequest;
 	
 	var url = 'http://semanticmusic.xyz:3030/ds/sparql?query=' + sparql;
@@ -122,4 +117,10 @@ function executeQuery(sparql){
 			populateHTML(response);
 		}
 	};
+}
+function msToMS(ms) {
+    var seconds = ms / 1000;
+    var minutes = parseInt( seconds / 60 );
+    seconds = seconds % 60;
+    return(minutes + ":" + seconds);
 }
