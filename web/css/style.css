@@ -133,6 +133,7 @@ table img {
     border-collapse: collapse;
     width: 80%;
     margin: 0 auto;
+    display: none;
 }
 
 #results td {

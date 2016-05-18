@@ -10,7 +10,7 @@ var queryResponse;
  *
  */
 function search(forminput){
-    
+    document.getElementById("results").style.display="table";
     var words = searchinput(forminput);
     performSearch(words);
 }
