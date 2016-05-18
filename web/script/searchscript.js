@@ -97,7 +97,7 @@ function removeDuplicates(list){
 
 function insertRow(img, title, artist, album, duration, spotify) {
     var table = document.getElementById("results");
-    var indexToInsert = table.rows.length;
+    var indexToInsert = table.rows.length-1;
     var newJob = table.tBodies[0].insertRow(indexToInsert);
     newJob.innerHTML = "<td class=\"cover\"><img src=" + img + "></td> <td class=\"song\"><p>" + title + "</td> <td class=\"artist\"><p>" + artist + "</p></td>" + "<td class=\"album\"><p>" + album + "</p></td>" + "<td class=\"duration\"><p>" + millisToMinutesAndSeconds(duration) + "</p></td>" + "<td class=\"link\"><a href=\"https://play.spotify.com/track/" + spotify.replace("#", "") + "\" target=\"_blank\">Spotify</a></td>";
 }
