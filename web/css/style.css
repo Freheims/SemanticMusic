@@ -142,6 +142,15 @@ table img {
 
 #results th {
     background-color: #F2921D;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: ease, 0.5s;
+}
+
+#results th:hover {
+    background-color: #c16f0b;
+    cursor: pointer;
 }
 
 #results th p {
