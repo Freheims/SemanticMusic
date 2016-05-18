@@ -20,11 +20,12 @@
                 <section id="search">
                     <img id="logo" src="img/logoYo.png">
                     <p>Search for music using concepts, feelings, song-, album- or artist names. Separate multiple search entries with a comma.</p>
-                    <form>
+                    <form action="javascript:search(document.getElementById('sparql'))">
                         <input type="text" id="sparql">
+                        <input id="goButton" type="submit" value="SEARCH"/>
                     </form>
                 <br/>
-                <input id="goButton" type="submit" value="SEARCH" onclick="search(document.getElementById('sparql'))"/>
+                
                 </section>
                 <table id="results">
                     <tr>
