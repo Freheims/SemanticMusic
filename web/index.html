@@ -21,14 +21,13 @@
                 <section id="search">
                     <img id="logo" src="img/logoYo.png">
                     <p>Search for music using concepts, feelings, song-, album- or artist names. Separate multiple search entries with a comma.</p>
-                    <form action="javascript:search(document.getElementById('sparql'))">
+					<form action="javascript:search(document.getElementById('sparql'))">
                         <input type="text" id="sparql">
-                        <input id="goButton" type="submit" value="SEARCH"/>
+                        <input id="goButton" type="submit" value="SEARCH" onClick="$('#results tbody tr').remove()"/>
                     </form>
                 <br/>
-                
                 </section>
-                <table id="results" class="sortable">
+                <table id='results' class='sortable'>
                     <tr>
                         <th>Cover</th>
                         <th>Song</th>
@@ -36,22 +35,6 @@
                         <th>Album</th>
                         <th>Duration</th>
                         <th>Link</th>
-                    </tr>
-                    <tr>
-                        <td class="cover"><img src="https://upload.wikimedia.org/wikipedia/en/1/16/Gojira_-_The_Way_of_All_Flesh_-_2008.jpg"></td>
-                        <td class="song"><p>Toxic Garbage Island</p></td>
-                        <td class="artist"><p>Gojira</p></td>
-                        <td class="album"><p>The Way of all Flesh</p></td>
-                        <td class="duration"><p>00:00</p></td>
-                        <td class="link"><a href="https://play.spotify.com/track/5e0OSsSpWpQ2kS7Z9CGLDu" target="_blank">Spotify</a></td>
-                    </tr>
-                    <tr>
-                        <td class="cover"><img src="https://images.rapgenius.com/3c46fb709d193546e1852238f64f5473.600x600x1.jpg"></td>
-                        <td class="song"><p>SMUCKERS</p></td>
-                        <td class="artist"><p>Tyler, the Creator</p></td>
-                        <td class="album"><p>Cherry Bomb</p></td>
-                        <td class="duration"><p>00:00</p></td>
-                        <td class="link"><a href="https://play.spotify.com/track/629TRAVD61y1ZVNl9EOfEE" target="_blank">Spotify</a></td>
                     </tr>
                 </table>
             </main>

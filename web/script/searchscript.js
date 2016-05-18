@@ -10,6 +10,7 @@ var queryResponse;
  *
  */
 function search(forminput){
+    
     var words = searchinput(forminput);
     performSearch(words);
 }
@@ -65,6 +66,7 @@ function buildQuery(searchwords){
         ];
     for (var i in searchwords){
         wherestatement.push("?song ?predicate" + " \"" + searchwords[i] + "\" .");
+        wherestatement.push("FILTER regex(?predicate,\"" + searchwords[i] + "\"","\"i\")");
     }
     wherestatement.push("?song sm:title ?title . ");
     wherestatement.push("?song sm:album ?album . ");
