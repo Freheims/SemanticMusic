@@ -1,69 +1,96 @@
+html, body, #lazybox {
+    height: 95.5%;
+    min-height: 95.5%; 
+}
+
 body {
-    background-color: #d7f4d7;
+    background-color: #4E4D4A;
+    margin: 0;
+    padding: 0;
+    font: 0.8em/1.4 "Helvetica", sans-serif;
+    font-style: normal;
+    position: relative;
+}
+
+::selection {
+    color:#F2F2F2;background:#F2921D;
+}
+
+::-moz-selection {
+    color:#F2F2F2;background:#F2921D;
+}
+
+a::selection {
+    color:#F2F2F2;background:#F2921D;
+}
+
+a::-moz-selection {
+    color:#F2F2F2;background:#F2921D;
+}
+
+a{
+    color: #24A592;
+    text-decoration:none;
+    outline: 0;
+    }
+
+a:hover {
+    color: #F2921D;
+    }
+
+a:active{
+    color: #F2921D;
+    }
+    
+input[type=text] {
+    padding: 5px; 
+    border: 2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]: focus {
+    border-color: #333;
+}
+
+input[type=submit] {
+    padding: 5px 15px; 
+    background: #24A592; 
+    color: white;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
 }
 
 header h1 {
     display: block;
-    font-family: tahoma, sans-serif;
-    font-size: 50px;
+    font-size: 3em;
     width: 100%;
     text-align: center;
-    margin: 30px auto;
-    cursor: 8;
-    color: teal;
+    margin: 0 auto;
+    padding: 0.3em 0;
+    color: #FFF;
     font-weight: bold;
+    background-color: #24A592;
+    box-shadow: 0px 2px 2px #666;
+    position: relative;
+    z-index: 2;
+    text-transform: capitalize;
+}
+
+#logo {
+    padding: 0 0 2em 0;
+    margin: 0;
+    width: 100px;
+    height: 100px;
 }
 
 #lazybox {
-    background-color: white;
-    box-shadow: 0px 4px 10px #819281;
+    background-color: #FFFFFF;
     width: 50%;
-    margin: 50px auto;
+    margin: 0 auto;
     padding: 10px 0;
-}
-
-#current {
-    text-decoration: underline;
-    color: white;
-    font-weight: bold;
-    font-family: tahoma, sans-serif;
-    vertical-align: middle;
-    margin-top: 4px;
-}
-
-nav ul a {
-    display: inline-block;
-    width: 140px;
-    margin: 10px;
-    height: 50px;
-    background-color: #800000;
-    box-shadow: 0px 2px 4px #595959;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-}
-
-nav ul a li {
-    font-size: 25px;
-    margin: 7px auto;
-    vertical-align: middle;
-}
-
-nav ul a:hover {
-    background-color: #008080;
-}
-
-nav ul {
-    width: 80%;
-    list-style-type: none;
-    margin: auto;
-    text-align: center;
-}
-
-nav {
-    position: relative;
-    width: 100%;
-    margin: 20px auto;
 }
 
 main {
@@ -72,14 +99,19 @@ main {
 }
 
 footer {
-    width: 80%;
-    margin: 50px auto;
-}
+    box-shadow: 0px -2px 2px #666;
+    text-align: center;
+    position: relative;
+    background-color: #1F8E7E; 
+    bottom: 0%;
+    width: 100%;
+    }
 
 footer p {
-    width: 80%;
-    margin: 10px auto;
+    margin: 0;
+    padding: .5em 0;
     text-align: center;
+    color: #FFF;
 }
 
 table img {
@@ -91,26 +123,27 @@ table img {
     margin: auto;
 }
 
+#goButton {
+    margin: 0 auto;
+    width: 50%;
+}
+
 #results {
     border-collapse: collapse;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #results td {
-    border: 2px solid #b9c6b9;
+    border: 1px solid #CCC;
     word-wrap: break-word;
 }
 
 #results th {
-    border: 2px solid #b9c6b9;
-    background-color: teal;
+    background-color: #F2921D;
 }
 
-/** SER DØNN UT SOM KNAPPENE, DÅRLIG INTERAKSJONSDESIGN **/
 #results th p {
-    font-size: 22px;
-    text-transform: uppercase;
-    font-family: calibri, sans-serif;
     color: white;
 }
 
@@ -121,12 +154,6 @@ table p, table a {
     word-wrap: break-word;
 }
 
-#bobo {
-    display: block;
-    width: 150px;
-    margin-left: 50px;
-}
-
 #search p, #search input{
     width: auto;
     margin: auto;
@@ -134,13 +161,12 @@ table p, table a {
 }
 
 #search {
-    width: 50%;
+    width: 70%;
     margin: 40px auto;
+    text-align: center;
 }
 
 #search form {
-    display: inline-block;
-    width: 100px;
+    display: block;
     margin: 10px auto;
-    padding-left: 70px;
 }
