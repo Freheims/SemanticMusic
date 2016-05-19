@@ -76,8 +76,8 @@ function buildQuery(searchwords){
         "WHERE {"
         ];
     for (var i in searchwords){
-        wherestatement.push("?song ?predicate" + " \"" + searchwords[i] + "\" .");
-        wherestatement.push("FILTER regex(?predicate,\"" + searchwords[i].toLowerCase() + "\",\"i\") .");
+        wherestatement.push("?song ?predicate ?term.");
+        wherestatement.push("FILTER regex(?term,\"" + searchwords[i].toLowerCase() + "\",\"i\") .");
     }
     wherestatement.push("?song sm:title ?title . ");
     wherestatement.push("?song sm:album ?album . ");
