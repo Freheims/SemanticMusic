@@ -1,7 +1,6 @@
 //jQuery
 const PREFIX = "PREFIX sm: <http://semanticmusic.xyz/vocab/>";
 var searchTypes = ["concept", "emotion", "genre", "title", "artist", "album"]; //The different things we can search for.
-var queryResponse;
 
 /**
  * Method which is called upon by the eventListener
@@ -38,18 +37,17 @@ function searchinput(forminput){
  *
  */
 function performSearch(words){
-    var result = [];
     var query = buildQuery(words);
     executeQuery(query);
 }
 
 /**
- * Populates the HTML-page with the search-results. 
- *
+ * Readies the new data to be inserted in the HTML table
  */
 function populateHTML(response) {
     var json = JSON.parse(response);
     var results = json.results.bindings;
+    results = removeDuplicates(results);
     for(var i = 0; i < results.length; i++ ){
         insertRow(results[i].image.value, results[i].title.value, results[i].artist.value, results[i].album.value, results[i].duration.value, results[i].song.value);
     }
@@ -65,8 +63,8 @@ function buildQuery(searchwords){
         "WHERE {"
         ];
     for (var i in searchwords){
-		wherestatement.push("?song ?predicate ?property .");
-		wherestatement.push("FILTER regex(?property,\"" + searchwords[i].toLowerCase() + "\",\"i\") .");
+        wherestatement.push("?song ?predicate" + " \"" + searchwords[i] + "\" .");
+        wherestatement.push("FILTER regex(?predicate,\"" + searchwords[i].toLowerCase() + "\",\"i\") .");
     }
     wherestatement.push("?song sm:title ?title . ");
     wherestatement.push("?song sm:album ?album . ");
@@ -88,15 +86,14 @@ function buildQuery(searchwords){
 
 /**
  * Removes duplicates from a list
- *
- * (We should probably deal with this in another way, since a song that occurs 
- * multiple times in the result probably is more relevant than a song with fewer
- * occurences. But for now we dont care about that at all.)
  */
 function removeDuplicates(list){
     return Array.from(new Set(list));
 }
 
+/**
+ * Receives parameters, puts them in the HTML table
+ */
 function insertRow(img, title, artist, album, duration, spotify) {
     var table = document.getElementById("results");
     var indexToInsert = table.rows.length-1;
