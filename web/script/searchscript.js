@@ -87,8 +87,16 @@ function buildQuery(searchwords){
 /**
  * Removes duplicates from a list
  */
-function removeDuplicates(list){
-    return Array.from(new Set(list));
+function removeDuplicates(arr) {
+    var cleaned = [];
+    arr.forEach(function(itm) {
+        var unique = true;
+        cleaned.forEach(function(itm2) {
+            if (arr.isEqual(itm, itm2)) unique = false;
+        });
+        if (unique)  cleaned.push(itm);
+    });
+    return cleaned;
 }
 
 /**
