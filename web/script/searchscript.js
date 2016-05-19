@@ -1,6 +1,7 @@
 //jQuery
 const PREFIX = "PREFIX sm: <http://semanticmusic.xyz/vocab/>";
 var searchTypes = ["concept", "emotion", "genre", "title", "artist", "album"]; //The different things we can search for.
+var resultList = [];
 
 /**
  * Method which is called upon by the eventListener
@@ -9,6 +10,7 @@ var searchTypes = ["concept", "emotion", "genre", "title", "artist", "album"]; /
  *
  */
 function search(forminput){
+    resultList = [];
     document.getElementById("results").style.display="table";
     var words = searchinput(forminput);
     performSearch(words);
@@ -47,11 +49,22 @@ function performSearch(words){
 function populateHTML(response) {
     var json = JSON.parse(response);
     var results = json.results.bindings;
-    results = removeDuplicates(results);
     for(var i = 0; i < results.length; i++ ){
+        if(!contains(resultList, results[i].song.value)){
         insertRow(results[i].image.value, results[i].title.value, results[i].artist.value, results[i].album.value, results[i].duration.value, results[i].song.value);
+        resultList.push(results[i].song.value);
     }
-    
+}
+
+/''
+function contains(ar1, obj) {
+    var i = ar1.length;
+    while (i--) {
+        if (ar1[i] === obj) {
+            return true;
+        }
+    }
+    return false;
 }
 
 /**
@@ -81,22 +94,6 @@ function buildQuery(searchwords){
         ].join(" ");
         
     return query;
-}
-
-
-/**
- * Removes duplicates from a list
- */
-function removeDuplicates(arr) {
-    var cleaned = [];
-    arr.forEach(function(itm) {
-        var unique = true;
-        cleaned.forEach(function(itm2) {
-            if (arr.isEqual(itm, itm2)) unique = false;
-        });
-        if (unique)  cleaned.push(itm);
-    });
-    return cleaned;
 }
 
 /**
