@@ -7,9 +7,11 @@ import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.reasoner.rulesys.builtins.GE;
 import org.apache.jena.riot.RDFDataMgr;
 import org.apache.jena.riot.RDFFormat;
 import org.apache.jena.util.FileManager;
+import org.apache.jena.vocabulary.RDF;
 import semanticData.GetSemantics;
 
 import java.io.*;
@@ -20,35 +22,60 @@ import java.util.ArrayList;
  */
 public class createTriples {
 
-    private static final String tripleStore = "tripleStore.nt";
+    private static final String tripleStore = "../tripleStore.nt";
 
     public static void main(String[] args) throws Exception {
+        int songCounter = 0;
+        ArrayList<Song> songs = GetAllSongs.getAll();
+        while (!songs.isEmpty()){
+            songCounter += songs.size();
+            createTriples(songs);
+            songs = GetAllSongs.getAll();
+
+            if(songCounter>3) break;
+            try {
+                Thread.sleep(600000); //Ten minutes, milliseconds
+            }catch (InterruptedException e){
+                e.printStackTrace();
+            }
+            if(songCounter>=450){
+                try {
+                    Thread.sleep(86400000); //24 hours, milliseconds
+                }catch (InterruptedException e){
+                    e.printStackTrace();
+                }
+                songCounter = 0;
+            }
+
+        }
+
+
+        
+
+    }
+    public static void createTriples(ArrayList<Song> songs) throws Exception {
+
         Model model = ModelFactory.createDefaultModel();
-        //Model model = RDFDataMgr.loadModel(tripleStore);
         //PREFIXES
-        //model.setNsPrefix("mo", "http://purl.org/ontology/mo/");
-        //model.setNsPrefix("foaf", "http://xmlns.com/foaf/0.1/");
-        String sm = "http://freheims.xyz/semantic-music/";
+        String semanticMusic = "http://semanticmusic.xyz/vocab/";
 
         //PROPERTIES
-        //Property maker = model.createProperty("http://xmlns.com/foaf/0.1/maker");
-        //Property title = model.createProperty("http://purl.org/dc/elements/1.1/title");
-        Property title = model.createProperty(sm + "title");
-        Property artist = model.createProperty(sm + "artist");
-        Property album = model.createProperty(sm + "album");
-        Property genre = model.createProperty(sm + "genre");
-        Property concept = model.createProperty(sm + "concept");
-        Property emotion = model.createProperty(sm + "emotion");
-        Property image = model.createProperty(sm + "image");
-        Property duration = model.createProperty(sm + "duration");
+        Property title = model.createProperty(semanticMusic + "title");
+        Property artist = model.createProperty(semanticMusic + "artist");
+        Property album = model.createProperty(semanticMusic + "album");
+        Property genre = model.createProperty(semanticMusic + "genre");
+        Property concept = model.createProperty(semanticMusic + "concept");
+        Property emotion = model.createProperty(semanticMusic + "emotion");
+        Property image = model.createProperty(semanticMusic + "image");
+        Property duration = model.createProperty(semanticMusic + "duration");
 
-
-        ArrayList<Song> songs = GetAllSongs.getAll();
         for (Song song : songs) {
-            GetLyrics.getLyric(song);
-            GetSemantics.getConcepts(song);
-            GetSemantics.getEmotions(song);
-            //System.out.println(song.toString());
+            try {
+                GetLyrics.getLyric(song);
+                GetSemantics.getConcepts(song);
+                GetSemantics.getEmotions(song);
+            }catch (Exception e){
+            }
 
             Resource res = model.createResource("#" + song.getSPOTIFY_ID());
             res.addProperty(title, song.getNAME());
