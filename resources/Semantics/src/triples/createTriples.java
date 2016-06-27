@@ -32,14 +32,15 @@ public class createTriples {
             createTriples(songs);
             songs = GetAllSongs.getAll();
 
-            if(songCounter>3) break;
             try {
+                System.out.println("Sleep: 10min");
                 Thread.sleep(600000); //Ten minutes, milliseconds
             }catch (InterruptedException e){
                 e.printStackTrace();
             }
             if(songCounter>=450){
                 try {
+                    System.out.println("Sleep: 24h");
                     Thread.sleep(86400000); //24 hours, milliseconds
                 }catch (InterruptedException e){
                     e.printStackTrace();
@@ -55,7 +56,8 @@ public class createTriples {
     }
     public static void createTriples(ArrayList<Song> songs) throws Exception {
 
-        Model model = ModelFactory.createDefaultModel();
+        //Model model = ModelFactory.createDefaultModel();
+        Model model = RDFDataMgr.loadModel(tripleStore);
         //PREFIXES
         String semanticMusic = "http://semanticmusic.xyz/vocab/";
 

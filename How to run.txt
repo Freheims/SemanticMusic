@@ -1,0 +1,32 @@
+HOW TO RUN THE PROJECT
+
+A live and running version of the project can be viewed at http://semanticmusic.xyz
+
+There are two ways the code can be run. Either you can host and run everything locally or you can use our database.
+If you want to have everything locally you follow these steps.
+
+1. Add Apache-jena and jena-fuseki libraries to /resources/libs/apache.
+
+2. pip3 install spotipy in /resources.
+
+3. Set up a MYSQL-database named "spotify" with the tables as specified in /resources/database.sql
+
+4 Then you must change user credentials and host in the corresponding fields in resources/spotifyData.py and resources/Semantics/src/database/DbCredentials.java to what you set them to in MYSQL. (The folder /resources/Semantics is an IntelliJ project folder so it can be opened there or imported to Eclipse, or you can edit and compile the files mannualy)
+
+5. Run /resources/spotifyData.py in Python 3.4 or newer. 
+
+6. Run the createTriples main class in resources/Semantics
+
+7. Start a fuseki server with the command "./fuseki-server --update --loc=/../../../MYTDB /ds &" from /resources/libs/apache/jena-fuseki../ And populate it with the tripleStore.nt with the command "s-put http://localhost:3030/ds/data default ../../../tripleStore.nt" from the same place. 
+
+8. Now you can test the project by opening /web/index.html in your browser.
+
+
+
+If you just want to use our database just do the following steps from the guide above:
+
+2.
+5.
+6. Run the Semantics.jar located in resources.
+7.
+8.

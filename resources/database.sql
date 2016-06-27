@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS album (
 
 CREATE TABLE IF NOT EXISTS track (
     id char(22) NOT NULL,
-    name varchar(60) NOT NULL,
+    name varchar(120) NOT NULL,
     duration integer NOT NULL,
     image char(70),
     annotated boolean DEFAULT FALSE,
