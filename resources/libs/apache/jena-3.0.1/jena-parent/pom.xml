@@ -66,7 +66,7 @@
     <ver.httpclient-osgi>4.2.6</ver.httpclient-osgi>
 
     <ver.commons-codec>1.9</ver.commons-codec>
-    <ver.lucene>4.9.1</ver.lucene>
+    <ver.lucene>8.2.0</ver.lucene>
     <ver.solr>4.9.1</ver.solr>
     <ver.spatial4j>0.4.1</ver.spatial4j>
 
