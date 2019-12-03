@@ -64,7 +64,7 @@
     <assembly.soh.name>${this.root}</assembly.soh.name>
     -->
 
-    <ver.jetty>9.4.21.v20190926</ver.jetty>
+    <ver.jetty>9.4.24.v20191120</ver.jetty>
     <ver.velocity>1.7</ver.velocity>
     
     <maven.build.timestamp.format>yyyy-MM-dd'T'HH:mm:ssZ</maven.build.timestamp.format>
