@@ -67,7 +67,7 @@
       <!-- replace with something like
         <version>3.0.0</version>
       -->
-      <version>RELEASE</version>
+      <version>4.2.0</version>
     </dependency>
   </dependencies>
 
